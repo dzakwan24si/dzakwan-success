@@ -1,13 +1,13 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './biodata/custom.css';
-import BiodataDiri from './Biodata/BiodataDiri.jsx'; 
-import TugasForm from './pertemuan-3/TugasForm.jsx';
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App.jsx';
+import './assets/tailwind.css'; 
 
 createRoot(document.getElementById('root')).render(
-  <div>
-    <App />
-  </div>
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
 );
-
