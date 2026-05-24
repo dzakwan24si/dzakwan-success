@@ -16,7 +16,7 @@ export default function Sidebar() {
     <aside className="w-20 bg-white flex flex-col items-center py-6 border-r border-gray-100 shrink-0">
       {/* Logo */}
       <div className="w-12 h-12 bg-blue-800 rounded-full flex items-center justify-center mb-8 shadow-md">
-        <span className="text-white font-bold text-xl">FL</span>
+        <span className="text-white font-bold text-xl">Ki</span>
       </div>
 
       {/* Nav Items */}

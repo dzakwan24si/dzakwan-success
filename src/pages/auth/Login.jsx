@@ -42,7 +42,7 @@ export default function Login() {
       {/* Logo Area */}
       <div className="mb-2 text-center">
         <h1 className="text-3xl font-bold tracking-widest text-white">
-          FRESH<span className="text-blue-500">LAUNDRY</span>
+          Kucek<span className="text-blue-500">in</span>
         </h1>
         <p className="text-[9px] tracking-[0.2em] text-gray-300 uppercase mt-1">
           Management System

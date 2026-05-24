@@ -19,7 +19,7 @@ import { Home, User, Mail, ShieldAlert } from 'lucide-react';
 export default function Components() {
   return (
     <div className="p-8 pb-24 font-poppins animate-fade-in">
-      <PageHeader title="UI Components Playground" subtitle="Katalog 15 Komponen Reusable FreshLaundry" />
+      <PageHeader title="UI Components Playground" subtitle="Katalog 15 Komponen Reusable Kucekin" />
 
       <div className="space-y-12">
         {/* 1. BASIC COMPONENTS */}
