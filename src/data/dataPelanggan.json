@@ -1,0 +1,29 @@
+[
+    {
+      "id": "LND-0001",
+      "nama": "Budi Santoso",
+      "email": "budi.santoso@gmail.com",
+      "nomorHp": "081234567890",
+      "statusMember": "VIP",
+      "totalTransaksi": "Rp 350.000",
+      "transaksiTerakhir": "25 Mei 2026"
+    },
+    {
+      "id": "LND-0002",
+      "nama": "Sari Kusuma",
+      "email": "sari.kus@yahoo.com",
+      "nomorHp": "085298765432",
+      "statusMember": "Premium",
+      "totalTransaksi": "Rp 145.000",
+      "transaksiTerakhir": "28 Mei 2026"
+    },
+    {
+      "id": "LND-0003",
+      "nama": "Andi Wijaya",
+      "email": "andi.pratama@outlook.com",
+      "nomorHp": "089611223344",
+      "statusMember": "Reguler",
+      "totalTransaksi": "Rp 45.000",
+      "transaksiTerakhir": "01 Juni 2026"
+    }
+  ]

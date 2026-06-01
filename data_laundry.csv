@@ -1,0 +1,801 @@
+ID_Customer,Nama_Lengkap,Jenis_Kelamin,Nomor_HP,Alamat,Kota,Tanggal_Daftar,Status_Member,Feedback_Rating,Total_Transaksi_Rp,Metode_Pembayaran,Tanggal_Transaksi_Terakhir
+LND-0001,Ayu Hidayat,Perempuan,08820945056,Jl. Nangka No. 95,Pekanbaru,2025-09-20,Premium,5,17000,Transfer Bank,2026-04-10
+LND-0002,Dewi Lestari,Perempuan,08874455582,Jl. Riau No. 2,Pekanbaru,2025-05-03,Reguler,4,20000,Transfer Bank,2026-01-08
+LND-0003,Dewi Wijaya,Laki-laki,08208146396,Jl. Sudirman No. 10,Pekanbaru,2025-10-15,Premium,5,44000,Tunai,2026-02-17
+LND-0004,Ayu Sari,Perempuan,08167496462,Jl. HR Soebrantas No. 30,Pekanbaru,2025-04-23,Premium,5,37000,Tunai,2026-01-28
+LND-0005,Siti Wijaya,Laki-laki,08240259146,Jl. Garuda No. 14,Pekanbaru,2025-10-08,VIP,5,23000,Transfer Bank,2026-03-14
+LND-0006,Budi Kusuma,Perempuan,08981484782,Jl. Paus No. 73,Pekanbaru,2025-08-12,VIP,5,35000,ShopeePay,2026-01-21
+LND-0007,Fajar Wijaya,Laki-laki,08628109457,Jl. Sudirman No. 24,Pekanbaru,2025-09-26,Reguler,5,39000,Transfer Bank,2026-04-17
+LND-0008,Ayu Sari,Perempuan,08226231846,Jl. Sudirman No. 67,Pekanbaru,2025-10-07,Premium,5,35000,QRIS,2026-03-17
+LND-0009,Dina Wijaya,Perempuan,08651511633,Jl. Nangka No. 28,Pekanbaru,2025-04-24,Premium,4,20000,QRIS,2026-03-07
+LND-0010,Putri Sari,Perempuan,08495828826,Jl. Garuda No. 84,Pekanbaru,2025-01-24,Premium,4,54000,Tunai,2026-04-16
+LND-0011,Siti Wijaya,Perempuan,08789885700,Jl. Nangka No. 50,Pekanbaru,2025-12-20,Reguler,5,37000,Tunai,2026-01-08
+LND-0012,Reza Kusuma,Laki-laki,08548904415,Jl. Riau No. 70,Pekanbaru,2025-12-11,Premium,4,32000,ShopeePay,2026-03-19
+LND-0013,Reza Wijaya,Perempuan,08156151231,Jl. Garuda No. 5,Pekanbaru,2025-05-08,VIP,4,51000,Transfer Bank,2026-02-09
+LND-0014,Dina Nugroho,Perempuan,08735927141,Jl. Nangka No. 64,Pekanbaru,2025-10-03,Reguler,4,30000,Tunai,2026-03-05
+LND-0015,Putri Sari,Laki-laki,0853543307,Jl. Riau No. 86,Pekanbaru,2025-03-09,VIP,5,53000,ShopeePay,2026-02-26
+LND-0016,Dewi Santoso,Perempuan,08750731936,Jl. Riau No. 71,Pekanbaru,2025-05-19,VIP,5,30000,Tunai,2026-04-22
+LND-0017,Fajar Kusuma,Perempuan,08563079605,Jl. HR Soebrantas No. 61,Pekanbaru,2025-07-19,Reguler,5,26000,ShopeePay,2026-02-25
+LND-0018,Putri Pratama,Perempuan,08903722122,Jl. Riau No. 29,Pekanbaru,2025-07-02,Reguler,4,22000,Transfer Bank,2026-02-07
+LND-0019,Putri Pratama,Perempuan,08525701162,Jl. Sudirman No. 26,Pekanbaru,2025-03-19,Reguler,4,52000,QRIS,2026-02-05
+LND-0020,Dewi Kusuma,Laki-laki,08163655316,Jl. Riau No. 71,Pekanbaru,2025-03-27,Premium,4,8000,Transfer Bank,2026-03-16
+LND-0021,Siti Sari,Laki-laki,08444468463,Jl. Sudirman No. 36,Pekanbaru,2025-11-09,Reguler,5,36000,Tunai,2026-04-26
+LND-0022,Putri Lestari,Perempuan,08135321019,Jl. Nangka No. 74,Pekanbaru,2025-11-08,Reguler,5,33000,Transfer Bank,2026-02-06
+LND-0023,Putri Sari,Perempuan,08320816681,Jl. Sudirman No. 8,Pekanbaru,2025-11-11,Reguler,4,28000,ShopeePay,2026-01-22
+LND-0024,Dewi Nugroho,Laki-laki,0819427937,Jl. Paus No. 50,Pekanbaru,2025-01-17,VIP,5,26000,Tunai,2026-03-20
+LND-0025,Budi Hidayat,Laki-laki,08230557710,Jl. Sudirman No. 42,Pekanbaru,2025-04-05,Premium,4,39000,ShopeePay,2026-03-26
+LND-0026,Putri Sari,Perempuan,08381339559,Jl. Paus No. 0,Pekanbaru,2025-05-17,Reguler,5,45000,Tunai,2026-04-25
+LND-0027,Dewi Kusuma,Perempuan,08165598235,Jl. Garuda No. 51,Pekanbaru,2025-06-16,VIP,4,8000,Transfer Bank,2026-04-02
+LND-0028,Andi Hidayat,Laki-laki,08768504256,Jl. Riau No. 35,Pekanbaru,2025-11-20,Premium,4,36000,Transfer Bank,2026-04-10
+LND-0029,Dewi Sari,Perempuan,08165666844,Jl. Paus No. 87,Pekanbaru,2025-09-24,Reguler,5,23000,Tunai,2026-02-23
+LND-0030,Andi Lestari,Perempuan,08799313308,Jl. Nangka No. 10,Pekanbaru,2025-10-10,Premium,5,33000,Tunai,2026-04-23
+LND-0031,Andi Wijaya,Perempuan,0810916045,Jl. Nangka No. 64,Pekanbaru,2025-01-21,VIP,5,52000,ShopeePay,2026-02-11
+LND-0032,Dewi Kusuma,Perempuan,08871009948,Jl. Paus No. 17,Pekanbaru,2025-04-09,Reguler,4,22000,Tunai,2026-02-24
+LND-0033,Dina Nugroho,Laki-laki,08866725167,Jl. Paus No. 71,Pekanbaru,2025-09-18,Premium,5,39000,QRIS,2026-01-07
+LND-0034,Fajar Pratama,Perempuan,08204484621,Jl. Paus No. 46,Pekanbaru,2025-08-19,Reguler,4,28000,Tunai,2026-02-12
+LND-0035,Dina Sari,Laki-laki,08271694648,Jl. Sudirman No. 94,Pekanbaru,2025-08-09,VIP,4,52000,QRIS,2026-03-13
+LND-0036,Fajar Sari,Laki-laki,0856047309,Jl. Paus No. 49,Pekanbaru,2025-11-22,VIP,4,9000,ShopeePay,2026-04-18
+LND-0037,Dewi Pratama,Laki-laki,08439563955,Jl. Garuda No. 62,Pekanbaru,2025-09-25,VIP,5,52000,Transfer Bank,2026-03-09
+LND-0038,Rizky Hidayat,Laki-laki,08746545387,Jl. Paus No. 28,Pekanbaru,2025-06-05,Premium,5,53000,Tunai,2026-04-21
+LND-0039,Fajar Sari,Perempuan,08999085854,Jl. Sudirman No. 93,Pekanbaru,2025-06-11,Premium,4,7000,ShopeePay,2026-01-19
+LND-0040,Budi Santoso,Laki-laki,08390079254,Jl. Garuda No. 72,Pekanbaru,2025-07-10,Reguler,4,20000,Transfer Bank,2026-04-21
+LND-0041,Andi Kusuma,Laki-laki,0885912262,Jl. Sudirman No. 86,Pekanbaru,2025-10-03,VIP,5,46000,Tunai,2026-01-12
+LND-0042,Fajar Santoso,Laki-laki,08116629127,Jl. Riau No. 59,Pekanbaru,2025-07-28,Reguler,4,12000,QRIS,2026-02-02
+LND-0043,Dina Lestari,Perempuan,08481751438,Jl. Sudirman No. 84,Pekanbaru,2025-08-25,Premium,4,36000,Tunai,2026-01-05
+LND-0044,Putri Wijaya,Perempuan,08163430124,Jl. Garuda No. 63,Pekanbaru,2025-02-22,Premium,5,38000,QRIS,2026-02-19
+LND-0045,Andi Santoso,Perempuan,08792866087,Jl. Sudirman No. 66,Pekanbaru,2025-10-12,Premium,4,27000,Tunai,2026-04-03
+LND-0046,Dina Santoso,Perempuan,0811886297,Jl. Paus No. 26,Pekanbaru,2025-04-25,Premium,4,46000,ShopeePay,2026-02-24
+LND-0047,Ayu Santoso,Perempuan,0859121399,Jl. HR Soebrantas No. 25,Pekanbaru,2025-09-18,VIP,5,38000,ShopeePay,2026-02-13
+LND-0048,Budi Pratama,Laki-laki,08884914186,Jl. Nangka No. 68,Pekanbaru,2025-07-14,Reguler,5,39000,Transfer Bank,2026-04-08
+LND-0049,Putri Pratama,Perempuan,08874844740,Jl. HR Soebrantas No. 41,Pekanbaru,2025-03-09,Reguler,4,23000,Tunai,2026-03-08
+LND-0050,Budi Lestari,Laki-laki,08719130464,Jl. Riau No. 41,Pekanbaru,2025-04-24,Premium,4,21000,Transfer Bank,2026-01-20
+LND-0051,Dina Hidayat,Perempuan,08724420337,Jl. Paus No. 50,Pekanbaru,2025-04-15,Reguler,4,52000,Transfer Bank,2026-01-18
+LND-0052,Dewi Lestari,Perempuan,08942896544,Jl. Sudirman No. 1,Pekanbaru,2025-04-09,VIP,4,48000,ShopeePay,2026-04-07
+LND-0053,Dina Wijaya,Laki-laki,08868315517,Jl. Sudirman No. 82,Pekanbaru,2025-09-20,Reguler,4,52000,Transfer Bank,2026-03-24
+LND-0054,Andi Lestari,Perempuan,08800557303,Jl. Garuda No. 63,Pekanbaru,2025-11-13,Premium,5,21000,QRIS,2026-04-11
+LND-0055,Reza Nugroho,Laki-laki,08235112909,Jl. Sudirman No. 60,Pekanbaru,2025-01-01,Premium,4,50000,Transfer Bank,2026-03-22
+LND-0056,Budi Sari,Perempuan,08790713495,Jl. Sudirman No. 80,Pekanbaru,2025-01-12,Premium,5,47000,Transfer Bank,2026-04-02
+LND-0057,Fajar Hidayat,Perempuan,08971901427,Jl. HR Soebrantas No. 46,Pekanbaru,2025-12-02,Reguler,4,21000,ShopeePay,2026-01-22
+LND-0058,Budi Kusuma,Perempuan,08220411745,Jl. Riau No. 3,Pekanbaru,2025-08-22,VIP,5,28000,Tunai,2026-03-18
+LND-0059,Rizky Wijaya,Perempuan,08912450734,Jl. Paus No. 19,Pekanbaru,2025-12-24,Premium,5,19000,Transfer Bank,2026-04-11
+LND-0060,Ayu Pratama,Laki-laki,08183596194,Jl. Nangka No. 26,Pekanbaru,2025-03-09,Reguler,5,47000,QRIS,2026-04-20
+LND-0061,Dewi Nugroho,Perempuan,08898138070,Jl. Nangka No. 43,Pekanbaru,2025-01-13,Reguler,5,19000,ShopeePay,2026-03-03
+LND-0062,Siti Lestari,Perempuan,08377929044,Jl. Nangka No. 84,Pekanbaru,2025-06-21,VIP,4,49000,Tunai,2026-02-28
+LND-0063,Dina Santoso,Laki-laki,08192526079,Jl. HR Soebrantas No. 76,Pekanbaru,2025-10-21,Reguler,4,36000,ShopeePay,2026-02-10
+LND-0064,Ayu Hidayat,Perempuan,08521944908,Jl. Nangka No. 62,Pekanbaru,2025-01-15,Reguler,5,17000,Tunai,2026-01-09
+LND-0065,Putri Pratama,Laki-laki,08199369259,Jl. Garuda No. 29,Pekanbaru,2025-10-22,Reguler,5,15000,ShopeePay,2026-03-22
+LND-0066,Dina Kusuma,Laki-laki,08632060408,Jl. HR Soebrantas No. 1,Pekanbaru,2025-10-06,VIP,4,28000,Tunai,2026-01-16
+LND-0067,Rizky Hidayat,Perempuan,08927523433,Jl. Sudirman No. 86,Pekanbaru,2025-08-20,Reguler,4,39000,Transfer Bank,2026-01-09
+LND-0068,Dina Sari,Laki-laki,08922008420,Jl. Garuda No. 93,Pekanbaru,2025-01-07,Premium,4,48000,QRIS,2026-04-13
+LND-0069,Dina Wijaya,Perempuan,0846889429,Jl. Garuda No. 95,Pekanbaru,2025-11-22,Premium,5,42000,ShopeePay,2026-01-07
+LND-0070,Andi Sari,Perempuan,08472548181,Jl. Nangka No. 60,Pekanbaru,2025-10-09,Reguler,4,50000,QRIS,2026-02-27
+LND-0071,Siti Lestari,Laki-laki,08966178129,Jl. Sudirman No. 58,Pekanbaru,2025-10-20,Premium,4,35000,Tunai,2026-03-02
+LND-0072,Andi Santoso,Laki-laki,08118925896,Jl. Nangka No. 36,Pekanbaru,2025-02-23,Reguler,5,48000,QRIS,2026-02-22
+LND-0073,Putri Pratama,Laki-laki,08793561397,Jl. Paus No. 51,Pekanbaru,2025-08-10,Premium,5,35000,Tunai,2026-04-04
+LND-0074,Dina Lestari,Perempuan,08972412445,Jl. Paus No. 82,Pekanbaru,2025-01-20,VIP,4,25000,QRIS,2026-02-28
+LND-0075,Rizky Santoso,Perempuan,08349416863,Jl. Nangka No. 3,Pekanbaru,2025-05-23,Reguler,4,10000,Transfer Bank,2026-03-03
+LND-0076,Andi Sari,Laki-laki,08608803405,Jl. HR Soebrantas No. 94,Pekanbaru,2025-05-23,VIP,5,41000,Tunai,2026-02-15
+LND-0077,Rizky Nugroho,Perempuan,08662795548,Jl. Nangka No. 83,Pekanbaru,2025-03-24,Reguler,4,18000,QRIS,2026-04-07
+LND-0078,Fajar Nugroho,Laki-laki,08123231331,Jl. Riau No. 6,Pekanbaru,2025-02-17,Reguler,4,15000,Tunai,2026-03-13
+LND-0079,Rizky Nugroho,Perempuan,08734686434,Jl. Nangka No. 81,Pekanbaru,2025-10-25,VIP,5,53000,ShopeePay,2026-02-25
+LND-0080,Ayu Pratama,Laki-laki,08277431818,Jl. HR Soebrantas No. 46,Pekanbaru,2025-02-08,Premium,5,15000,QRIS,2026-04-07
+LND-0081,Budi Hidayat,Perempuan,08477002125,Jl. Nangka No. 79,Pekanbaru,2025-01-06,Reguler,5,54000,ShopeePay,2026-03-19
+LND-0082,Budi Sari,Perempuan,08217672398,Jl. Garuda No. 88,Pekanbaru,2025-01-11,Premium,5,7000,ShopeePay,2026-03-02
+LND-0083,Dina Lestari,Laki-laki,08471979773,Jl. HR Soebrantas No. 52,Pekanbaru,2025-11-26,VIP,5,8000,Transfer Bank,2026-01-02
+LND-0084,Putri Nugroho,Laki-laki,08918899762,Jl. Paus No. 7,Pekanbaru,2025-05-17,VIP,4,40000,Tunai,2026-04-10
+LND-0085,Fajar Wijaya,Perempuan,0821353017,Jl. Paus No. 34,Pekanbaru,2025-08-07,VIP,5,17000,Tunai,2026-02-14
+LND-0086,Andi Wijaya,Perempuan,08328614408,Jl. Garuda No. 74,Pekanbaru,2025-03-23,VIP,4,21000,Transfer Bank,2026-04-17
+LND-0087,Rizky Wijaya,Laki-laki,08879580141,Jl. Sudirman No. 9,Pekanbaru,2025-09-09,Reguler,4,18000,QRIS,2026-04-08
+LND-0088,Dina Lestari,Laki-laki,08152374631,Jl. HR Soebrantas No. 1,Pekanbaru,2025-01-02,Reguler,5,9000,Transfer Bank,2026-01-15
+LND-0089,Reza Sari,Laki-laki,08398647976,Jl. Garuda No. 58,Pekanbaru,2025-03-13,Premium,5,11000,QRIS,2026-02-24
+LND-0090,Siti Pratama,Perempuan,08721776809,Jl. HR Soebrantas No. 15,Pekanbaru,2025-02-09,Reguler,4,41000,Tunai,2026-02-04
+LND-0091,Dina Sari,Laki-laki,08879809669,Jl. Nangka No. 11,Pekanbaru,2025-06-26,Premium,4,53000,Tunai,2026-03-19
+LND-0092,Fajar Hidayat,Perempuan,08547624861,Jl. Riau No. 47,Pekanbaru,2025-04-14,Premium,4,44000,Transfer Bank,2026-01-12
+LND-0093,Dina Kusuma,Perempuan,08949513135,Jl. HR Soebrantas No. 37,Pekanbaru,2025-10-13,Premium,5,49000,ShopeePay,2026-02-04
+LND-0094,Budi Santoso,Perempuan,0886568481,Jl. Nangka No. 66,Pekanbaru,2025-02-16,Reguler,5,45000,QRIS,2026-04-24
+LND-0095,Budi Santoso,Perempuan,08906945811,Jl. Paus No. 47,Pekanbaru,2025-01-21,VIP,5,34000,ShopeePay,2026-04-15
+LND-0096,Siti Lestari,Perempuan,08439280150,Jl. Garuda No. 83,Pekanbaru,2025-03-18,Premium,4,30000,Transfer Bank,2026-03-13
+LND-0097,Ayu Lestari,Laki-laki,08864224020,Jl. HR Soebrantas No. 38,Pekanbaru,2025-11-23,Reguler,5,45000,Tunai,2026-04-28
+LND-0098,Putri Wijaya,Perempuan,08551977481,Jl. Sudirman No. 60,Pekanbaru,2025-01-20,Reguler,5,43000,Transfer Bank,2026-03-22
+LND-0099,Fajar Hidayat,Laki-laki,08926785541,Jl. Paus No. 47,Pekanbaru,2025-08-22,VIP,4,53000,Tunai,2026-04-02
+LND-0100,Dina Sari,Laki-laki,08999279651,Jl. Nangka No. 45,Pekanbaru,2025-03-03,Reguler,4,44000,Tunai,2026-04-13
+LND-0101,Andi Kusuma,Laki-laki,08210465480,Jl. Garuda No. 47,Pekanbaru,2025-06-15,VIP,5,15000,Transfer Bank,2026-01-18
+LND-0102,Dina Hidayat,Perempuan,08903077870,Jl. Riau No. 85,Pekanbaru,2025-10-14,Reguler,5,35000,Tunai,2026-03-10
+LND-0103,Budi Pratama,Laki-laki,08322295861,Jl. Sudirman No. 5,Pekanbaru,2025-08-04,Reguler,5,49000,Tunai,2026-02-18
+LND-0104,Fajar Pratama,Perempuan,08133112951,Jl. Paus No. 50,Pekanbaru,2025-09-16,Premium,4,35000,Tunai,2026-03-24
+LND-0105,Dewi Nugroho,Perempuan,08325553639,Jl. HR Soebrantas No. 98,Pekanbaru,2025-08-04,VIP,4,42000,ShopeePay,2026-04-13
+LND-0106,Ayu Hidayat,Laki-laki,08436647563,Jl. Garuda No. 15,Pekanbaru,2025-03-08,VIP,4,13000,ShopeePay,2026-03-10
+LND-0107,Rizky Wijaya,Laki-laki,08827701027,Jl. Garuda No. 29,Pekanbaru,2025-07-05,VIP,4,38000,Tunai,2026-01-17
+LND-0108,Budi Wijaya,Perempuan,08995923127,Jl. HR Soebrantas No. 60,Pekanbaru,2025-04-03,VIP,5,45000,Transfer Bank,2026-01-18
+LND-0109,Rizky Kusuma,Perempuan,08338110534,Jl. Garuda No. 17,Pekanbaru,2025-01-12,Reguler,4,11000,Tunai,2026-04-10
+LND-0110,Rizky Kusuma,Laki-laki,08453534168,Jl. Paus No. 51,Pekanbaru,2025-04-06,Premium,5,9000,Transfer Bank,2026-01-11
+LND-0111,Reza Sari,Perempuan,08659457913,Jl. Garuda No. 89,Pekanbaru,2025-07-18,VIP,5,15000,Transfer Bank,2026-04-14
+LND-0112,Reza Pratama,Laki-laki,08520758077,Jl. Garuda No. 71,Pekanbaru,2025-04-02,VIP,4,20000,Transfer Bank,2026-01-21
+LND-0113,Rizky Kusuma,Laki-laki,08549909319,Jl. Garuda No. 61,Pekanbaru,2025-04-12,Reguler,4,22000,Transfer Bank,2026-04-20
+LND-0114,Dina Pratama,Perempuan,08500237907,Jl. HR Soebrantas No. 63,Pekanbaru,2025-06-04,VIP,4,28000,Tunai,2026-02-20
+LND-0115,Siti Santoso,Perempuan,08740162719,Jl. Garuda No. 87,Pekanbaru,2025-11-26,Reguler,4,46000,Transfer Bank,2026-02-20
+LND-0116,Budi Hidayat,Laki-laki,08741848468,Jl. Riau No. 45,Pekanbaru,2025-08-24,Reguler,5,9000,Transfer Bank,2026-01-23
+LND-0117,Rizky Lestari,Laki-laki,08538391794,Jl. Paus No. 9,Pekanbaru,2025-07-17,Reguler,5,40000,Tunai,2026-04-10
+LND-0118,Putri Kusuma,Perempuan,08357020707,Jl. Sudirman No. 6,Pekanbaru,2025-01-25,VIP,4,31000,QRIS,2026-04-22
+LND-0119,Ayu Wijaya,Laki-laki,08717426227,Jl. Nangka No. 96,Pekanbaru,2025-03-04,Premium,5,10000,Tunai,2026-01-06
+LND-0120,Reza Hidayat,Perempuan,08652094768,Jl. Nangka No. 25,Pekanbaru,2025-12-07,VIP,5,49000,QRIS,2026-01-15
+LND-0121,Reza Sari,Laki-laki,08545764945,Jl. Paus No. 85,Pekanbaru,2025-04-23,Premium,5,38000,Transfer Bank,2026-04-02
+LND-0122,Andi Pratama,Perempuan,08722947831,Jl. Nangka No. 41,Pekanbaru,2025-12-18,Premium,5,17000,ShopeePay,2026-04-14
+LND-0123,Ayu Kusuma,Perempuan,08358487220,Jl. HR Soebrantas No. 91,Pekanbaru,2025-12-13,VIP,4,21000,Tunai,2026-03-24
+LND-0124,Rizky Lestari,Laki-laki,08596671425,Jl. Nangka No. 55,Pekanbaru,2025-07-12,VIP,5,29000,Tunai,2026-02-02
+LND-0125,Fajar Sari,Laki-laki,08399933933,Jl. Sudirman No. 3,Pekanbaru,2025-12-01,Premium,5,10000,Tunai,2026-03-10
+LND-0126,Dina Sari,Perempuan,08667567576,Jl. Riau No. 94,Pekanbaru,2025-08-16,Premium,5,23000,Tunai,2026-01-03
+LND-0127,Rizky Sari,Perempuan,08324551364,Jl. Garuda No. 59,Pekanbaru,2025-10-25,VIP,5,53000,ShopeePay,2026-01-16
+LND-0128,Rizky Sari,Perempuan,08546369173,Jl. HR Soebrantas No. 38,Pekanbaru,2025-03-28,Reguler,5,42000,Transfer Bank,2026-04-17
+LND-0129,Ayu Wijaya,Perempuan,08503935678,Jl. Riau No. 89,Pekanbaru,2025-01-22,VIP,5,51000,Tunai,2026-03-04
+LND-0130,Budi Pratama,Perempuan,08221844094,Jl. Riau No. 3,Pekanbaru,2025-10-02,Premium,5,49000,Tunai,2026-01-11
+LND-0131,Dewi Kusuma,Perempuan,08307828065,Jl. Sudirman No. 90,Pekanbaru,2025-02-12,VIP,4,44000,ShopeePay,2026-03-09
+LND-0132,Dina Hidayat,Laki-laki,08358130506,Jl. Garuda No. 54,Pekanbaru,2025-04-05,Reguler,4,19000,Tunai,2026-02-01
+LND-0133,Rizky Santoso,Perempuan,08934529050,Jl. Nangka No. 36,Pekanbaru,2025-11-21,Reguler,5,33000,QRIS,2026-01-01
+LND-0134,Dewi Hidayat,Laki-laki,08146586557,Jl. Riau No. 42,Pekanbaru,2025-07-14,VIP,4,50000,Transfer Bank,2026-04-19
+LND-0135,Andi Sari,Perempuan,08369486123,Jl. Paus No. 74,Pekanbaru,2025-04-02,VIP,4,52000,Transfer Bank,2026-04-28
+LND-0136,Putri Pratama,Perempuan,08591220319,Jl. Garuda No. 91,Pekanbaru,2025-12-04,Reguler,4,14000,Transfer Bank,2026-04-01
+LND-0137,Andi Santoso,Perempuan,08582512217,Jl. HR Soebrantas No. 35,Pekanbaru,2025-01-10,Reguler,4,50000,Transfer Bank,2026-04-24
+LND-0138,Andi Nugroho,Laki-laki,08176993499,Jl. Riau No. 13,Pekanbaru,2025-10-09,Premium,5,24000,Transfer Bank,2026-01-05
+LND-0139,Reza Nugroho,Laki-laki,08421808254,Jl. Sudirman No. 63,Pekanbaru,2025-10-27,Reguler,4,49000,ShopeePay,2026-04-16
+LND-0140,Reza Santoso,Laki-laki,08982698594,Jl. Paus No. 87,Pekanbaru,2025-01-13,VIP,5,37000,QRIS,2026-03-04
+LND-0141,Rizky Kusuma,Perempuan,08292986935,Jl. Sudirman No. 85,Pekanbaru,2025-02-14,Reguler,4,53000,ShopeePay,2026-02-26
+LND-0142,Siti Wijaya,Laki-laki,08617765453,Jl. Sudirman No. 42,Pekanbaru,2025-07-19,Premium,4,47000,Transfer Bank,2026-01-18
+LND-0143,Putri Nugroho,Laki-laki,08767598375,Jl. Nangka No. 26,Pekanbaru,2025-01-26,Reguler,5,30000,Transfer Bank,2026-03-13
+LND-0144,Reza Hidayat,Perempuan,08529913672,Jl. Nangka No. 61,Pekanbaru,2025-12-11,Reguler,5,53000,Tunai,2026-01-03
+LND-0145,Dina Santoso,Laki-laki,08192678055,Jl. Garuda No. 16,Pekanbaru,2025-09-19,Premium,4,28000,Transfer Bank,2026-01-04
+LND-0146,Fajar Nugroho,Perempuan,08166618776,Jl. Paus No. 57,Pekanbaru,2025-09-10,VIP,5,11000,QRIS,2026-03-05
+LND-0147,Reza Wijaya,Laki-laki,08755066520,Jl. Garuda No. 4,Pekanbaru,2025-11-25,Premium,4,54000,ShopeePay,2026-03-10
+LND-0148,Andi Lestari,Perempuan,08256588571,Jl. Garuda No. 27,Pekanbaru,2025-06-28,Reguler,4,43000,ShopeePay,2026-02-13
+LND-0149,Reza Nugroho,Laki-laki,08483060859,Jl. Nangka No. 94,Pekanbaru,2025-02-08,VIP,5,11000,ShopeePay,2026-02-01
+LND-0150,Dewi Wijaya,Perempuan,08153747002,Jl. Garuda No. 68,Pekanbaru,2025-01-06,Reguler,4,8000,Transfer Bank,2026-04-03
+LND-0151,Siti Kusuma,Laki-laki,08450048966,Jl. HR Soebrantas No. 16,Pekanbaru,2025-01-06,VIP,4,30000,Transfer Bank,2026-02-14
+LND-0152,Fajar Lestari,Laki-laki,08416203790,Jl. Nangka No. 78,Pekanbaru,2025-02-16,VIP,5,23000,Transfer Bank,2026-01-22
+LND-0153,Dina Pratama,Laki-laki,08967054525,Jl. HR Soebrantas No. 62,Pekanbaru,2025-04-06,Premium,4,25000,QRIS,2026-04-06
+LND-0154,Andi Wijaya,Laki-laki,08989561829,Jl. Sudirman No. 11,Pekanbaru,2025-05-15,Premium,5,15000,Tunai,2026-04-18
+LND-0155,Siti Sari,Laki-laki,08696278948,Jl. Riau No. 91,Pekanbaru,2025-08-02,Premium,5,18000,Transfer Bank,2026-04-13
+LND-0156,Dina Kusuma,Laki-laki,08886142583,Jl. Paus No. 12,Pekanbaru,2025-04-12,VIP,5,19000,Transfer Bank,2026-02-17
+LND-0157,Rizky Wijaya,Perempuan,08790683449,Jl. Sudirman No. 25,Pekanbaru,2025-04-13,Premium,4,22000,QRIS,2026-02-14
+LND-0158,Dewi Nugroho,Perempuan,08371075828,Jl. Garuda No. 98,Pekanbaru,2025-01-17,VIP,5,39000,Tunai,2026-03-13
+LND-0159,Fajar Hidayat,Perempuan,08454504091,Jl. Garuda No. 50,Pekanbaru,2025-07-22,VIP,5,54000,Transfer Bank,2026-03-02
+LND-0160,Andi Wijaya,Laki-laki,0812878047,Jl. Nangka No. 80,Pekanbaru,2025-07-12,Reguler,5,9000,QRIS,2026-03-06
+LND-0161,Ayu Wijaya,Laki-laki,08100101417,Jl. Garuda No. 18,Pekanbaru,2025-01-09,VIP,4,14000,Transfer Bank,2026-02-28
+LND-0162,Fajar Lestari,Perempuan,08114078390,Jl. Garuda No. 77,Pekanbaru,2025-07-18,VIP,4,5000,Transfer Bank,2026-04-16
+LND-0163,Ayu Lestari,Laki-laki,08961488470,Jl. HR Soebrantas No. 99,Pekanbaru,2025-11-03,Premium,4,46000,Transfer Bank,2026-04-16
+LND-0164,Andi Pratama,Laki-laki,08471531974,Jl. HR Soebrantas No. 5,Pekanbaru,2025-08-28,VIP,4,22000,QRIS,2026-02-03
+LND-0165,Dewi Lestari,Laki-laki,085757848,Jl. HR Soebrantas No. 33,Pekanbaru,2025-03-10,VIP,4,30000,QRIS,2026-04-19
+LND-0166,Andi Pratama,Perempuan,08536811667,Jl. HR Soebrantas No. 12,Pekanbaru,2025-11-17,Premium,5,32000,ShopeePay,2026-02-27
+LND-0167,Dina Wijaya,Perempuan,08372046868,Jl. HR Soebrantas No. 12,Pekanbaru,2025-01-04,Premium,4,25000,QRIS,2026-04-04
+LND-0168,Siti Pratama,Laki-laki,08284686557,Jl. Sudirman No. 25,Pekanbaru,2025-06-28,VIP,5,32000,Transfer Bank,2026-04-02
+LND-0169,Fajar Wijaya,Perempuan,08189332184,Jl. Riau No. 94,Pekanbaru,2025-03-11,Reguler,4,37000,Transfer Bank,2026-01-16
+LND-0170,Fajar Pratama,Laki-laki,08586582139,Jl. Riau No. 21,Pekanbaru,2025-12-21,Reguler,5,53000,ShopeePay,2026-04-27
+LND-0171,Siti Kusuma,Laki-laki,08356914182,Jl. Riau No. 37,Pekanbaru,2025-01-06,Reguler,4,29000,ShopeePay,2026-01-22
+LND-0172,Andi Lestari,Laki-laki,08480975662,Jl. Paus No. 96,Pekanbaru,2025-07-11,Reguler,4,26000,Tunai,2026-02-13
+LND-0173,Fajar Lestari,Laki-laki,08386570628,Jl. HR Soebrantas No. 27,Pekanbaru,2025-11-12,VIP,5,14000,QRIS,2026-02-26
+LND-0174,Ayu Hidayat,Laki-laki,0857983559,Jl. HR Soebrantas No. 32,Pekanbaru,2025-01-16,Reguler,5,48000,Tunai,2026-02-04
+LND-0175,Dewi Santoso,Laki-laki,08172243703,Jl. Sudirman No. 95,Pekanbaru,2025-03-21,Premium,4,30000,ShopeePay,2026-02-18
+LND-0176,Fajar Nugroho,Laki-laki,08692856174,Jl. Paus No. 65,Pekanbaru,2025-10-09,VIP,5,15000,Transfer Bank,2026-01-07
+LND-0177,Rizky Lestari,Perempuan,08884843395,Jl. Riau No. 53,Pekanbaru,2025-07-11,VIP,4,11000,Transfer Bank,2026-02-01
+LND-0178,Fajar Santoso,Laki-laki,08307924703,Jl. Garuda No. 17,Pekanbaru,2025-07-17,VIP,5,36000,QRIS,2026-02-08
+LND-0179,Fajar Lestari,Perempuan,08804828192,Jl. Paus No. 46,Pekanbaru,2025-12-25,Reguler,5,48000,Transfer Bank,2026-01-05
+LND-0180,Fajar Santoso,Laki-laki,08780253704,Jl. Paus No. 9,Pekanbaru,2025-04-21,Premium,5,45000,ShopeePay,2026-04-06
+LND-0181,Andi Lestari,Laki-laki,08696210734,Jl. Riau No. 57,Pekanbaru,2025-07-16,Premium,5,42000,QRIS,2026-01-23
+LND-0182,Reza Santoso,Laki-laki,08655590338,Jl. Riau No. 31,Pekanbaru,2025-06-05,Premium,4,19000,Tunai,2026-01-28
+LND-0183,Dewi Hidayat,Perempuan,08750423723,Jl. Riau No. 85,Pekanbaru,2025-03-15,Reguler,5,18000,QRIS,2026-04-18
+LND-0184,Rizky Nugroho,Laki-laki,08366264639,Jl. Nangka No. 88,Pekanbaru,2025-12-17,VIP,5,49000,ShopeePay,2026-03-08
+LND-0185,Siti Sari,Laki-laki,08741174135,Jl. Garuda No. 57,Pekanbaru,2025-05-16,Reguler,4,14000,Transfer Bank,2026-01-25
+LND-0186,Andi Wijaya,Perempuan,08503405077,Jl. Riau No. 87,Pekanbaru,2025-12-15,Premium,4,7000,Tunai,2026-01-12
+LND-0187,Siti Sari,Perempuan,08943728653,Jl. Riau No. 9,Pekanbaru,2025-07-14,VIP,5,18000,Tunai,2026-01-22
+LND-0188,Rizky Kusuma,Perempuan,08580286314,Jl. Riau No. 88,Pekanbaru,2025-04-16,Reguler,4,6000,ShopeePay,2026-02-16
+LND-0189,Dina Lestari,Perempuan,08871949110,Jl. Riau No. 60,Pekanbaru,2025-06-07,Reguler,5,43000,Tunai,2026-04-26
+LND-0190,Dina Lestari,Laki-laki,08797481160,Jl. Sudirman No. 61,Pekanbaru,2025-09-05,Premium,4,8000,QRIS,2026-03-27
+LND-0191,Andi Sari,Perempuan,08516092174,Jl. Nangka No. 38,Pekanbaru,2025-03-17,Premium,4,40000,ShopeePay,2026-01-14
+LND-0192,Reza Kusuma,Perempuan,08919963889,Jl. Garuda No. 51,Pekanbaru,2025-08-16,VIP,4,51000,Transfer Bank,2026-01-19
+LND-0193,Fajar Nugroho,Perempuan,0870513123,Jl. Nangka No. 83,Pekanbaru,2025-06-20,VIP,5,34000,ShopeePay,2026-02-05
+LND-0194,Andi Hidayat,Perempuan,08359653115,Jl. Nangka No. 48,Pekanbaru,2025-11-20,VIP,5,28000,QRIS,2026-02-18
+LND-0195,Budi Sari,Perempuan,08552395099,Jl. Sudirman No. 29,Pekanbaru,2025-12-23,Reguler,4,32000,QRIS,2026-03-21
+LND-0196,Reza Nugroho,Laki-laki,08924801300,Jl. Paus No. 90,Pekanbaru,2025-03-15,VIP,4,50000,QRIS,2026-01-07
+LND-0197,Dina Lestari,Perempuan,08850093495,Jl. HR Soebrantas No. 35,Pekanbaru,2025-12-04,VIP,5,10000,ShopeePay,2026-04-08
+LND-0198,Siti Santoso,Laki-laki,08200087728,Jl. Sudirman No. 85,Pekanbaru,2025-05-01,VIP,5,9000,QRIS,2026-04-27
+LND-0199,Budi Lestari,Perempuan,08119355312,Jl. Garuda No. 1,Pekanbaru,2025-03-16,Reguler,4,7000,QRIS,2026-04-01
+LND-0200,Budi Kusuma,Perempuan,08699461826,Jl. Nangka No. 47,Pekanbaru,2025-02-13,Reguler,4,30000,ShopeePay,2026-01-23
+LND-0201,Siti Nugroho,Perempuan,08872015032,Jl. Riau No. 86,Pekanbaru,2025-10-27,VIP,5,43000,Transfer Bank,2026-03-13
+LND-0202,Reza Nugroho,Perempuan,0845741429,Jl. Riau No. 97,Pekanbaru,2025-09-03,Reguler,5,26000,Tunai,2026-04-23
+LND-0203,Dina Wijaya,Laki-laki,0890145343,Jl. HR Soebrantas No. 8,Pekanbaru,2025-06-23,Reguler,4,51000,QRIS,2026-02-19
+LND-0204,Putri Hidayat,Perempuan,08629471067,Jl. Paus No. 61,Pekanbaru,2025-08-01,Premium,4,31000,ShopeePay,2026-04-01
+LND-0205,Siti Sari,Laki-laki,08731979775,Jl. Paus No. 68,Pekanbaru,2025-01-01,Reguler,4,40000,QRIS,2026-03-07
+LND-0206,Siti Wijaya,Laki-laki,08660883204,Jl. Riau No. 2,Pekanbaru,2025-11-09,VIP,4,30000,Transfer Bank,2026-02-13
+LND-0207,Andi Wijaya,Perempuan,08157053845,Jl. Garuda No. 19,Pekanbaru,2025-11-20,Premium,5,52000,ShopeePay,2026-01-20
+LND-0208,Dina Santoso,Laki-laki,08598506961,Jl. Sudirman No. 31,Pekanbaru,2025-06-25,Reguler,4,44000,ShopeePay,2026-01-25
+LND-0209,Putri Lestari,Laki-laki,08604952560,Jl. Nangka No. 92,Pekanbaru,2025-01-22,VIP,4,46000,QRIS,2026-03-06
+LND-0210,Andi Pratama,Laki-laki,08585341629,Jl. HR Soebrantas No. 1,Pekanbaru,2025-01-11,VIP,4,47000,ShopeePay,2026-04-20
+LND-0211,Budi Wijaya,Laki-laki,08857302209,Jl. Riau No. 25,Pekanbaru,2025-10-04,Premium,5,43000,Transfer Bank,2026-01-22
+LND-0212,Putri Wijaya,Laki-laki,0829719067,Jl. Riau No. 56,Pekanbaru,2025-12-13,VIP,5,52000,ShopeePay,2026-03-06
+LND-0213,Fajar Pratama,Perempuan,08847071957,Jl. HR Soebrantas No. 65,Pekanbaru,2025-11-02,VIP,5,41000,QRIS,2026-04-14
+LND-0214,Budi Kusuma,Perempuan,08623825713,Jl. HR Soebrantas No. 8,Pekanbaru,2025-12-07,Reguler,5,18000,Tunai,2026-04-12
+LND-0215,Andi Sari,Perempuan,08711964213,Jl. HR Soebrantas No. 38,Pekanbaru,2025-09-08,Reguler,4,42000,Tunai,2026-03-25
+LND-0216,Rizky Wijaya,Laki-laki,08923009515,Jl. Paus No. 74,Pekanbaru,2025-07-21,Premium,5,48000,ShopeePay,2026-03-27
+LND-0217,Ayu Nugroho,Laki-laki,08994072868,Jl. Riau No. 7,Pekanbaru,2025-03-08,VIP,4,54000,Transfer Bank,2026-03-20
+LND-0218,Ayu Kusuma,Laki-laki,08759418007,Jl. Nangka No. 27,Pekanbaru,2025-06-18,VIP,4,42000,Tunai,2026-03-11
+LND-0219,Ayu Santoso,Laki-laki,08803171198,Jl. Garuda No. 58,Pekanbaru,2025-01-26,Premium,5,38000,Transfer Bank,2026-03-28
+LND-0220,Putri Nugroho,Laki-laki,08766630717,Jl. Sudirman No. 11,Pekanbaru,2025-09-07,Reguler,4,16000,QRIS,2026-01-20
+LND-0221,Andi Nugroho,Laki-laki,0881616057,Jl. Paus No. 74,Pekanbaru,2025-03-10,Premium,5,37000,Tunai,2026-04-09
+LND-0222,Budi Nugroho,Perempuan,08798345265,Jl. Paus No. 81,Pekanbaru,2025-12-16,VIP,5,16000,Transfer Bank,2026-01-23
+LND-0223,Rizky Wijaya,Laki-laki,08521007578,Jl. HR Soebrantas No. 47,Pekanbaru,2025-07-12,Premium,4,14000,Tunai,2026-02-27
+LND-0224,Rizky Kusuma,Laki-laki,0848614741,Jl. Riau No. 94,Pekanbaru,2025-07-12,VIP,5,15000,ShopeePay,2026-02-28
+LND-0225,Reza Nugroho,Laki-laki,08136386290,Jl. Riau No. 78,Pekanbaru,2025-06-25,VIP,4,44000,Transfer Bank,2026-03-06
+LND-0226,Ayu Sari,Perempuan,08742615060,Jl. Nangka No. 90,Pekanbaru,2025-02-15,Premium,4,22000,Tunai,2026-03-03
+LND-0227,Reza Santoso,Perempuan,08375422735,Jl. Riau No. 99,Pekanbaru,2025-04-03,Reguler,5,38000,Tunai,2026-02-09
+LND-0228,Fajar Sari,Perempuan,08277752877,Jl. Sudirman No. 48,Pekanbaru,2025-08-25,Premium,4,50000,ShopeePay,2026-01-27
+LND-0229,Dewi Pratama,Perempuan,08933668834,Jl. Sudirman No. 19,Pekanbaru,2025-09-18,Premium,4,30000,Transfer Bank,2026-03-14
+LND-0230,Ayu Hidayat,Laki-laki,08111559302,Jl. Paus No. 89,Pekanbaru,2025-07-24,Reguler,4,14000,Transfer Bank,2026-02-06
+LND-0231,Dewi Santoso,Perempuan,08818854534,Jl. Nangka No. 65,Pekanbaru,2025-03-12,VIP,5,49000,ShopeePay,2026-01-13
+LND-0232,Ayu Lestari,Perempuan,08837469578,Jl. Riau No. 76,Pekanbaru,2025-02-16,VIP,4,23000,Tunai,2026-01-08
+LND-0233,Ayu Sari,Laki-laki,08428861217,Jl. Riau No. 97,Pekanbaru,2025-02-26,Premium,4,48000,Transfer Bank,2026-03-02
+LND-0234,Dina Wijaya,Laki-laki,08200770744,Jl. Garuda No. 72,Pekanbaru,2025-07-20,Reguler,4,7000,QRIS,2026-04-23
+LND-0235,Dina Pratama,Perempuan,08374168448,Jl. Garuda No. 39,Pekanbaru,2025-12-11,Reguler,4,6000,QRIS,2026-03-09
+LND-0236,Reza Kusuma,Perempuan,08314213610,Jl. Garuda No. 96,Pekanbaru,2025-08-04,Reguler,4,38000,Transfer Bank,2026-03-04
+LND-0237,Ayu Pratama,Laki-laki,08121410596,Jl. HR Soebrantas No. 4,Pekanbaru,2025-12-14,VIP,5,20000,ShopeePay,2026-01-02
+LND-0238,Reza Wijaya,Laki-laki,08985260282,Jl. Paus No. 99,Pekanbaru,2025-11-27,Reguler,4,14000,Tunai,2026-01-21
+LND-0239,Rizky Sari,Laki-laki,08785306475,Jl. HR Soebrantas No. 8,Pekanbaru,2025-04-07,Reguler,4,27000,ShopeePay,2026-04-19
+LND-0240,Reza Nugroho,Laki-laki,08375546252,Jl. Paus No. 14,Pekanbaru,2025-01-10,Reguler,5,13000,ShopeePay,2026-02-12
+LND-0241,Siti Kusuma,Perempuan,08253909059,Jl. Garuda No. 66,Pekanbaru,2025-09-17,Premium,5,33000,Tunai,2026-02-09
+LND-0242,Rizky Kusuma,Laki-laki,08294253597,Jl. Paus No. 57,Pekanbaru,2025-02-03,Premium,4,20000,QRIS,2026-02-27
+LND-0243,Dina Lestari,Laki-laki,08964684309,Jl. Sudirman No. 92,Pekanbaru,2025-05-05,Premium,4,28000,QRIS,2026-03-09
+LND-0244,Andi Santoso,Perempuan,08500654549,Jl. Sudirman No. 24,Pekanbaru,2025-06-26,Reguler,5,53000,Transfer Bank,2026-02-15
+LND-0245,Budi Pratama,Laki-laki,08681740817,Jl. Sudirman No. 58,Pekanbaru,2025-04-02,Reguler,4,33000,ShopeePay,2026-01-22
+LND-0246,Andi Kusuma,Perempuan,0816241429,Jl. Garuda No. 35,Pekanbaru,2025-01-28,Premium,5,19000,Transfer Bank,2026-03-12
+LND-0247,Reza Kusuma,Laki-laki,08732147893,Jl. Riau No. 70,Pekanbaru,2025-08-11,Reguler,4,10000,QRIS,2026-01-19
+LND-0248,Putri Lestari,Perempuan,08660490093,Jl. Paus No. 98,Pekanbaru,2025-03-24,VIP,5,50000,ShopeePay,2026-03-28
+LND-0249,Dina Santoso,Laki-laki,08546879658,Jl. HR Soebrantas No. 81,Pekanbaru,2025-11-26,Premium,5,20000,QRIS,2026-04-06
+LND-0250,Ayu Kusuma,Perempuan,08419415343,Jl. HR Soebrantas No. 27,Pekanbaru,2025-09-06,Premium,4,7000,QRIS,2026-04-01
+LND-0251,Ayu Nugroho,Laki-laki,08519399383,Jl. Paus No. 64,Pekanbaru,2025-02-27,VIP,5,24000,QRIS,2026-03-07
+LND-0252,Dina Kusuma,Perempuan,08528157009,Jl. Nangka No. 32,Pekanbaru,2025-10-23,Reguler,5,48000,Tunai,2026-03-18
+LND-0253,Reza Santoso,Perempuan,08892422749,Jl. Riau No. 91,Pekanbaru,2025-08-21,Premium,5,29000,Transfer Bank,2026-02-22
+LND-0254,Andi Pratama,Perempuan,08940433014,Jl. Nangka No. 62,Pekanbaru,2025-11-07,Reguler,5,48000,Tunai,2026-04-02
+LND-0255,Dina Kusuma,Perempuan,0875104786,Jl. Riau No. 49,Pekanbaru,2025-11-15,VIP,5,27000,Tunai,2026-03-17
+LND-0256,Rizky Kusuma,Laki-laki,08463483007,Jl. Paus No. 67,Pekanbaru,2025-02-14,Reguler,4,44000,ShopeePay,2026-01-03
+LND-0257,Putri Sari,Laki-laki,08335362189,Jl. Nangka No. 86,Pekanbaru,2025-03-13,VIP,5,54000,Tunai,2026-01-05
+LND-0258,Dina Pratama,Laki-laki,08439936976,Jl. HR Soebrantas No. 10,Pekanbaru,2025-08-25,VIP,5,19000,ShopeePay,2026-04-03
+LND-0259,Andi Kusuma,Laki-laki,08275756128,Jl. Nangka No. 43,Pekanbaru,2025-04-06,Reguler,4,12000,Tunai,2026-03-08
+LND-0260,Dewi Sari,Perempuan,0810650450,Jl. Sudirman No. 31,Pekanbaru,2025-10-06,Premium,4,27000,Transfer Bank,2026-03-21
+LND-0261,Rizky Sari,Perempuan,08364698559,Jl. Sudirman No. 15,Pekanbaru,2025-07-15,VIP,5,18000,Transfer Bank,2026-01-28
+LND-0262,Dewi Wijaya,Perempuan,08636789156,Jl. HR Soebrantas No. 31,Pekanbaru,2025-06-26,VIP,5,41000,ShopeePay,2026-02-24
+LND-0263,Putri Wijaya,Laki-laki,08685205142,Jl. HR Soebrantas No. 17,Pekanbaru,2025-08-06,Premium,5,26000,QRIS,2026-02-27
+LND-0264,Putri Nugroho,Perempuan,08645911383,Jl. Sudirman No. 88,Pekanbaru,2025-09-03,Reguler,4,27000,ShopeePay,2026-01-08
+LND-0265,Reza Hidayat,Laki-laki,08465235115,Jl. Sudirman No. 87,Pekanbaru,2025-04-26,Premium,5,21000,Tunai,2026-01-14
+LND-0266,Siti Lestari,Laki-laki,08452968610,Jl. Riau No. 50,Pekanbaru,2025-12-18,Premium,5,38000,Transfer Bank,2026-02-03
+LND-0267,Dina Sari,Laki-laki,08386222837,Jl. Garuda No. 66,Pekanbaru,2025-03-20,VIP,5,15000,QRIS,2026-02-07
+LND-0268,Dina Santoso,Laki-laki,08935846259,Jl. Garuda No. 6,Pekanbaru,2025-10-18,Reguler,4,30000,ShopeePay,2026-02-20
+LND-0269,Andi Pratama,Perempuan,08308820754,Jl. Riau No. 31,Pekanbaru,2025-01-27,Reguler,5,23000,Tunai,2026-04-23
+LND-0270,Putri Hidayat,Perempuan,08487618197,Jl. Garuda No. 89,Pekanbaru,2025-06-12,Reguler,4,45000,Tunai,2026-03-11
+LND-0271,Ayu Pratama,Perempuan,08963301020,Jl. HR Soebrantas No. 11,Pekanbaru,2025-10-20,VIP,4,37000,Transfer Bank,2026-02-10
+LND-0272,Dina Pratama,Perempuan,08576899020,Jl. Riau No. 79,Pekanbaru,2025-08-14,Premium,5,11000,ShopeePay,2026-03-22
+LND-0273,Budi Wijaya,Laki-laki,08600529579,Jl. Riau No. 26,Pekanbaru,2025-06-23,VIP,5,52000,Tunai,2026-03-21
+LND-0274,Siti Hidayat,Laki-laki,08930498827,Jl. Riau No. 28,Pekanbaru,2025-01-14,Premium,4,46000,ShopeePay,2026-04-09
+LND-0275,Putri Sari,Perempuan,08679636228,Jl. HR Soebrantas No. 28,Pekanbaru,2025-05-20,Premium,4,23000,ShopeePay,2026-04-13
+LND-0276,Fajar Santoso,Perempuan,08136299379,Jl. Riau No. 82,Pekanbaru,2025-11-14,VIP,4,49000,Tunai,2026-03-05
+LND-0277,Siti Kusuma,Perempuan,08193657818,Jl. Garuda No. 92,Pekanbaru,2025-01-06,Reguler,4,13000,Tunai,2026-03-03
+LND-0278,Dina Hidayat,Perempuan,0853327748,Jl. Paus No. 6,Pekanbaru,2025-03-18,Premium,4,17000,QRIS,2026-01-11
+LND-0279,Fajar Wijaya,Perempuan,08344247155,Jl. HR Soebrantas No. 70,Pekanbaru,2025-07-14,Reguler,5,15000,QRIS,2026-03-11
+LND-0280,Fajar Hidayat,Perempuan,08925957008,Jl. Riau No. 43,Pekanbaru,2025-08-27,Reguler,4,18000,ShopeePay,2026-04-04
+LND-0281,Dewi Hidayat,Laki-laki,08743538093,Jl. Sudirman No. 73,Pekanbaru,2025-12-07,VIP,5,16000,Transfer Bank,2026-01-02
+LND-0282,Budi Pratama,Laki-laki,08598489800,Jl. Garuda No. 98,Pekanbaru,2025-10-09,Premium,5,16000,Transfer Bank,2026-03-25
+LND-0283,Siti Pratama,Perempuan,08731515643,Jl. Riau No. 93,Pekanbaru,2025-09-24,Reguler,5,29000,ShopeePay,2026-04-12
+LND-0284,Fajar Lestari,Laki-laki,08861946931,Jl. Nangka No. 36,Pekanbaru,2025-02-21,VIP,4,44000,ShopeePay,2026-04-13
+LND-0285,Putri Hidayat,Perempuan,089217458,Jl. Nangka No. 4,Pekanbaru,2025-02-04,Reguler,4,36000,ShopeePay,2026-02-14
+LND-0286,Siti Wijaya,Perempuan,08712205491,Jl. Paus No. 6,Pekanbaru,2025-09-23,Reguler,4,19000,QRIS,2026-01-21
+LND-0287,Budi Sari,Laki-laki,08558203237,Jl. Paus No. 92,Pekanbaru,2025-11-20,VIP,4,16000,Transfer Bank,2026-04-16
+LND-0288,Dewi Nugroho,Perempuan,08110452993,Jl. Riau No. 57,Pekanbaru,2025-10-22,Premium,4,44000,Tunai,2026-01-13
+LND-0289,Reza Kusuma,Perempuan,08671769439,Jl. Riau No. 79,Pekanbaru,2025-04-22,Reguler,5,43000,ShopeePay,2026-01-10
+LND-0290,Reza Wijaya,Perempuan,0853164156,Jl. HR Soebrantas No. 60,Pekanbaru,2025-12-26,VIP,5,36000,QRIS,2026-01-13
+LND-0291,Budi Nugroho,Perempuan,08871243521,Jl. Sudirman No. 36,Pekanbaru,2025-11-24,VIP,5,41000,Transfer Bank,2026-02-06
+LND-0292,Putri Pratama,Laki-laki,08149987424,Jl. Riau No. 21,Pekanbaru,2025-06-17,VIP,5,35000,ShopeePay,2026-02-27
+LND-0293,Reza Nugroho,Laki-laki,08834513041,Jl. Garuda No. 65,Pekanbaru,2025-08-23,Reguler,4,38000,ShopeePay,2026-01-28
+LND-0294,Rizky Wijaya,Laki-laki,08291770216,Jl. HR Soebrantas No. 69,Pekanbaru,2025-12-20,VIP,5,46000,Tunai,2026-02-02
+LND-0295,Putri Nugroho,Perempuan,08513839495,Jl. Paus No. 93,Pekanbaru,2025-07-13,Reguler,4,30000,ShopeePay,2026-02-01
+LND-0296,Fajar Hidayat,Laki-laki,08713282063,Jl. Paus No. 90,Pekanbaru,2025-04-10,Reguler,5,49000,Tunai,2026-04-01
+LND-0297,Fajar Wijaya,Laki-laki,08544529812,Jl. Sudirman No. 74,Pekanbaru,2025-11-13,VIP,5,25000,QRIS,2026-03-01
+LND-0298,Budi Lestari,Perempuan,08568991187,Jl. Sudirman No. 45,Pekanbaru,2025-02-26,Reguler,4,36000,QRIS,2026-01-06
+LND-0299,Andi Pratama,Perempuan,08873300302,Jl. Paus No. 13,Pekanbaru,2025-03-19,Reguler,4,39000,Transfer Bank,2026-02-12
+LND-0300,Dewi Wijaya,Perempuan,08355512896,Jl. Garuda No. 82,Pekanbaru,2025-02-16,Premium,5,14000,QRIS,2026-01-19
+LND-0301,Fajar Sari,Perempuan,08239085491,Jl. Sudirman No. 55,Pekanbaru,2025-04-24,Premium,4,22000,Tunai,2026-04-18
+LND-0302,Putri Hidayat,Perempuan,08340730067,Jl. Riau No. 5,Pekanbaru,2025-03-03,Premium,5,27000,QRIS,2026-02-13
+LND-0303,Siti Wijaya,Laki-laki,08767669596,Jl. Riau No. 72,Pekanbaru,2025-11-03,Premium,5,6000,QRIS,2026-04-18
+LND-0304,Andi Sari,Perempuan,08765490042,Jl. Riau No. 74,Pekanbaru,2025-09-04,VIP,4,9000,QRIS,2026-04-16
+LND-0305,Reza Sari,Laki-laki,08986918383,Jl. Paus No. 47,Pekanbaru,2025-12-17,Premium,4,17000,Tunai,2026-01-16
+LND-0306,Dewi Sari,Perempuan,08433575685,Jl. Nangka No. 47,Pekanbaru,2025-11-01,Premium,5,25000,QRIS,2026-01-10
+LND-0307,Rizky Lestari,Laki-laki,08728806088,Jl. HR Soebrantas No. 41,Pekanbaru,2025-08-23,VIP,5,36000,QRIS,2026-02-23
+LND-0308,Siti Wijaya,Laki-laki,08626678395,Jl. HR Soebrantas No. 69,Pekanbaru,2025-02-26,Reguler,4,9000,ShopeePay,2026-04-13
+LND-0309,Budi Nugroho,Laki-laki,08542057121,Jl. HR Soebrantas No. 73,Pekanbaru,2025-08-25,Premium,5,46000,Tunai,2026-01-12
+LND-0310,Siti Sari,Perempuan,08502529475,Jl. Nangka No. 12,Pekanbaru,2025-10-16,VIP,5,37000,Transfer Bank,2026-01-17
+LND-0311,Budi Santoso,Perempuan,08274857793,Jl. Garuda No. 15,Pekanbaru,2025-08-13,Reguler,4,32000,Transfer Bank,2026-01-16
+LND-0312,Dewi Kusuma,Perempuan,08215620496,Jl. HR Soebrantas No. 58,Pekanbaru,2025-02-24,Reguler,4,48000,Tunai,2026-02-17
+LND-0313,Budi Sari,Perempuan,08289104013,Jl. Garuda No. 88,Pekanbaru,2025-04-17,Premium,5,42000,ShopeePay,2026-02-16
+LND-0314,Andi Wijaya,Perempuan,08268296757,Jl. Sudirman No. 67,Pekanbaru,2025-10-10,Reguler,5,54000,Transfer Bank,2026-03-21
+LND-0315,Siti Hidayat,Perempuan,08712504885,Jl. HR Soebrantas No. 42,Pekanbaru,2025-10-10,Reguler,5,22000,QRIS,2026-02-09
+LND-0316,Rizky Santoso,Laki-laki,08835817972,Jl. Riau No. 28,Pekanbaru,2025-09-27,Reguler,4,5000,Tunai,2026-03-14
+LND-0317,Siti Sari,Laki-laki,08578188687,Jl. Paus No. 87,Pekanbaru,2025-12-16,Premium,4,33000,QRIS,2026-02-03
+LND-0318,Putri Wijaya,Laki-laki,08918643170,Jl. Riau No. 96,Pekanbaru,2025-03-27,Premium,4,43000,Transfer Bank,2026-04-19
+LND-0319,Rizky Sari,Perempuan,0818852392,Jl. Riau No. 40,Pekanbaru,2025-12-09,Reguler,4,18000,Tunai,2026-02-14
+LND-0320,Reza Sari,Laki-laki,0824902077,Jl. Nangka No. 27,Pekanbaru,2025-05-10,VIP,4,30000,QRIS,2026-01-25
+LND-0321,Siti Sari,Perempuan,08710865728,Jl. Riau No. 21,Pekanbaru,2025-03-08,Reguler,5,19000,QRIS,2026-02-15
+LND-0322,Dewi Santoso,Perempuan,08368549150,Jl. Riau No. 2,Pekanbaru,2025-08-16,Reguler,5,7000,QRIS,2026-03-07
+LND-0323,Dewi Sari,Laki-laki,08316458680,Jl. Paus No. 99,Pekanbaru,2025-06-18,VIP,4,41000,Tunai,2026-02-23
+LND-0324,Fajar Nugroho,Perempuan,08266358951,Jl. Nangka No. 51,Pekanbaru,2025-03-09,Reguler,5,36000,Tunai,2026-03-10
+LND-0325,Rizky Santoso,Laki-laki,08604637289,Jl. Riau No. 43,Pekanbaru,2025-06-05,Reguler,4,31000,QRIS,2026-04-11
+LND-0326,Andi Hidayat,Laki-laki,0853320429,Jl. Sudirman No. 18,Pekanbaru,2025-06-02,Premium,4,44000,QRIS,2026-03-27
+LND-0327,Fajar Sari,Perempuan,08429679930,Jl. Riau No. 50,Pekanbaru,2025-03-18,Reguler,5,47000,Tunai,2026-02-16
+LND-0328,Siti Lestari,Laki-laki,08824175830,Jl. Garuda No. 97,Pekanbaru,2025-02-04,Reguler,5,52000,ShopeePay,2026-01-23
+LND-0329,Ayu Wijaya,Laki-laki,08347483619,Jl. Sudirman No. 57,Pekanbaru,2025-03-27,Premium,4,22000,Tunai,2026-02-07
+LND-0330,Budi Pratama,Perempuan,08520792338,Jl. Nangka No. 48,Pekanbaru,2025-07-20,Premium,4,17000,QRIS,2026-02-16
+LND-0331,Reza Sari,Perempuan,08909171926,Jl. Garuda No. 47,Pekanbaru,2025-08-21,Reguler,4,32000,QRIS,2026-02-23
+LND-0332,Siti Nugroho,Perempuan,08573424701,Jl. Sudirman No. 32,Pekanbaru,2025-03-12,Premium,5,29000,Transfer Bank,2026-04-23
+LND-0333,Fajar Hidayat,Laki-laki,081120257,Jl. Sudirman No. 22,Pekanbaru,2025-11-18,Reguler,4,46000,QRIS,2026-02-01
+LND-0334,Siti Wijaya,Laki-laki,08103602713,Jl. Garuda No. 7,Pekanbaru,2025-04-16,VIP,5,17000,ShopeePay,2026-02-11
+LND-0335,Budi Santoso,Laki-laki,0898157166,Jl. Garuda No. 44,Pekanbaru,2025-03-28,Reguler,4,30000,Transfer Bank,2026-04-05
+LND-0336,Rizky Kusuma,Perempuan,08791944428,Jl. Paus No. 4,Pekanbaru,2025-01-07,Reguler,5,21000,Transfer Bank,2026-02-24
+LND-0337,Reza Hidayat,Perempuan,08732694306,Jl. Paus No. 18,Pekanbaru,2025-08-24,VIP,4,20000,Tunai,2026-04-08
+LND-0338,Rizky Santoso,Perempuan,08943029487,Jl. HR Soebrantas No. 55,Pekanbaru,2025-09-24,Reguler,4,42000,QRIS,2026-01-22
+LND-0339,Dewi Kusuma,Perempuan,08439869954,Jl. HR Soebrantas No. 75,Pekanbaru,2025-05-02,VIP,4,14000,QRIS,2026-03-16
+LND-0340,Budi Nugroho,Laki-laki,08341966280,Jl. Sudirman No. 63,Pekanbaru,2025-12-18,VIP,4,7000,ShopeePay,2026-01-05
+LND-0341,Dina Wijaya,Laki-laki,08725510986,Jl. Garuda No. 7,Pekanbaru,2025-01-04,Premium,5,34000,ShopeePay,2026-04-16
+LND-0342,Reza Sari,Perempuan,08437969227,Jl. Riau No. 73,Pekanbaru,2025-08-25,Reguler,4,21000,Tunai,2026-02-09
+LND-0343,Ayu Nugroho,Laki-laki,08515488950,Jl. Garuda No. 99,Pekanbaru,2025-05-23,Premium,4,30000,Tunai,2026-02-23
+LND-0344,Siti Pratama,Perempuan,08729768607,Jl. Paus No. 26,Pekanbaru,2025-05-26,VIP,5,8000,Tunai,2026-03-18
+LND-0345,Reza Pratama,Perempuan,08105532662,Jl. Nangka No. 9,Pekanbaru,2025-03-06,VIP,5,25000,ShopeePay,2026-01-20
+LND-0346,Dina Hidayat,Laki-laki,08581722599,Jl. Nangka No. 56,Pekanbaru,2025-08-10,Premium,5,43000,Transfer Bank,2026-02-17
+LND-0347,Rizky Sari,Laki-laki,08461104361,Jl. Paus No. 41,Pekanbaru,2025-04-04,Reguler,4,50000,ShopeePay,2026-03-02
+LND-0348,Andi Pratama,Laki-laki,08789982948,Jl. HR Soebrantas No. 69,Pekanbaru,2025-10-21,Reguler,5,21000,Tunai,2026-03-15
+LND-0349,Ayu Sari,Laki-laki,08492648459,Jl. Riau No. 44,Pekanbaru,2025-05-01,Premium,4,35000,ShopeePay,2026-02-10
+LND-0350,Dewi Kusuma,Perempuan,08727348351,Jl. Garuda No. 40,Pekanbaru,2025-01-23,VIP,4,10000,QRIS,2026-02-23
+LND-0351,Dewi Hidayat,Laki-laki,08462484644,Jl. Garuda No. 78,Pekanbaru,2025-12-26,Reguler,5,46000,QRIS,2026-03-01
+LND-0352,Budi Nugroho,Perempuan,08492779728,Jl. HR Soebrantas No. 68,Pekanbaru,2025-11-19,VIP,5,52000,Transfer Bank,2026-03-10
+LND-0353,Fajar Wijaya,Laki-laki,08636122367,Jl. Garuda No. 90,Pekanbaru,2025-05-25,Premium,5,25000,QRIS,2026-04-10
+LND-0354,Rizky Santoso,Laki-laki,08782662648,Jl. HR Soebrantas No. 0,Pekanbaru,2025-06-22,Premium,4,8000,QRIS,2026-01-10
+LND-0355,Budi Lestari,Laki-laki,08685518701,Jl. Nangka No. 6,Pekanbaru,2025-07-27,VIP,4,44000,Transfer Bank,2026-04-01
+LND-0356,Dina Hidayat,Perempuan,08425381866,Jl. Garuda No. 0,Pekanbaru,2025-07-03,VIP,5,32000,ShopeePay,2026-03-02
+LND-0357,Siti Pratama,Laki-laki,08328545412,Jl. Riau No. 93,Pekanbaru,2025-05-02,Premium,4,34000,QRIS,2026-01-14
+LND-0358,Fajar Kusuma,Laki-laki,08985279407,Jl. Nangka No. 36,Pekanbaru,2025-02-15,Premium,4,16000,Transfer Bank,2026-03-28
+LND-0359,Ayu Nugroho,Laki-laki,08407055189,Jl. Garuda No. 12,Pekanbaru,2025-10-28,Reguler,4,8000,Tunai,2026-04-26
+LND-0360,Siti Kusuma,Perempuan,08382726668,Jl. HR Soebrantas No. 56,Pekanbaru,2025-07-08,Reguler,5,42000,Tunai,2026-03-28
+LND-0361,Budi Sari,Perempuan,08138453874,Jl. Nangka No. 20,Pekanbaru,2025-03-14,Reguler,5,7000,ShopeePay,2026-01-15
+LND-0362,Siti Pratama,Laki-laki,08739051662,Jl. Sudirman No. 19,Pekanbaru,2025-06-13,VIP,4,36000,Tunai,2026-01-27
+LND-0363,Siti Hidayat,Perempuan,08940744066,Jl. Riau No. 82,Pekanbaru,2025-07-06,VIP,4,30000,ShopeePay,2026-03-08
+LND-0364,Dina Sari,Laki-laki,08460753894,Jl. Garuda No. 32,Pekanbaru,2025-05-27,Premium,4,52000,ShopeePay,2026-01-05
+LND-0365,Andi Wijaya,Laki-laki,08645640775,Jl. HR Soebrantas No. 84,Pekanbaru,2025-06-07,Reguler,5,52000,Tunai,2026-04-19
+LND-0366,Ayu Pratama,Perempuan,08198460356,Jl. Nangka No. 84,Pekanbaru,2025-11-12,Premium,4,49000,Tunai,2026-01-21
+LND-0367,Budi Nugroho,Perempuan,08607633144,Jl. Sudirman No. 89,Pekanbaru,2025-12-14,Premium,4,29000,QRIS,2026-02-06
+LND-0368,Reza Kusuma,Perempuan,08678711576,Jl. Nangka No. 3,Pekanbaru,2025-03-26,Reguler,5,27000,ShopeePay,2026-01-02
+LND-0369,Dewi Sari,Perempuan,08121434335,Jl. Paus No. 43,Pekanbaru,2025-08-14,Reguler,4,33000,Transfer Bank,2026-04-09
+LND-0370,Dewi Hidayat,Laki-laki,08337442788,Jl. Garuda No. 90,Pekanbaru,2025-07-11,VIP,5,32000,Tunai,2026-02-08
+LND-0371,Siti Lestari,Perempuan,08907141613,Jl. Nangka No. 96,Pekanbaru,2025-11-08,Reguler,4,26000,ShopeePay,2026-01-23
+LND-0372,Putri Lestari,Perempuan,08488890515,Jl. Garuda No. 70,Pekanbaru,2025-03-28,VIP,4,23000,ShopeePay,2026-04-23
+LND-0373,Reza Hidayat,Perempuan,0848076719,Jl. Nangka No. 22,Pekanbaru,2025-01-12,Premium,4,30000,ShopeePay,2026-03-24
+LND-0374,Siti Sari,Perempuan,08420486841,Jl. Paus No. 31,Pekanbaru,2025-09-24,VIP,5,18000,Tunai,2026-03-24
+LND-0375,Budi Wijaya,Perempuan,08801875676,Jl. HR Soebrantas No. 10,Pekanbaru,2025-12-04,Reguler,5,20000,Transfer Bank,2026-01-11
+LND-0376,Dina Kusuma,Laki-laki,08727361296,Jl. Nangka No. 24,Pekanbaru,2025-06-10,Reguler,4,48000,Transfer Bank,2026-02-27
+LND-0377,Rizky Kusuma,Laki-laki,08526737448,Jl. Paus No. 20,Pekanbaru,2025-04-10,Premium,4,35000,ShopeePay,2026-02-14
+LND-0378,Siti Santoso,Laki-laki,08758226086,Jl. Riau No. 27,Pekanbaru,2025-01-28,Premium,4,26000,ShopeePay,2026-04-02
+LND-0379,Andi Nugroho,Laki-laki,08606743800,Jl. Nangka No. 40,Pekanbaru,2025-04-12,Reguler,4,50000,Transfer Bank,2026-04-26
+LND-0380,Dewi Pratama,Perempuan,08721434557,Jl. Riau No. 29,Pekanbaru,2025-04-21,VIP,5,38000,QRIS,2026-02-24
+LND-0381,Ayu Kusuma,Laki-laki,08316251404,Jl. Paus No. 68,Pekanbaru,2025-12-12,Reguler,4,18000,QRIS,2026-04-26
+LND-0382,Siti Sari,Laki-laki,08902170696,Jl. Nangka No. 4,Pekanbaru,2025-04-15,VIP,4,6000,ShopeePay,2026-04-04
+LND-0383,Fajar Hidayat,Laki-laki,08405902397,Jl. Garuda No. 28,Pekanbaru,2025-03-14,Premium,5,49000,Tunai,2026-01-24
+LND-0384,Budi Lestari,Laki-laki,08592826827,Jl. Garuda No. 45,Pekanbaru,2025-07-12,Premium,4,20000,Tunai,2026-02-09
+LND-0385,Fajar Kusuma,Laki-laki,08892656791,Jl. Nangka No. 0,Pekanbaru,2025-03-11,Premium,5,18000,Transfer Bank,2026-02-18
+LND-0386,Siti Santoso,Perempuan,08195079139,Jl. Riau No. 29,Pekanbaru,2025-07-07,VIP,5,34000,ShopeePay,2026-04-21
+LND-0387,Fajar Hidayat,Laki-laki,08509300458,Jl. Garuda No. 54,Pekanbaru,2025-06-12,VIP,4,50000,Tunai,2026-03-02
+LND-0388,Fajar Wijaya,Perempuan,08440469276,Jl. Garuda No. 97,Pekanbaru,2025-01-14,VIP,4,52000,Transfer Bank,2026-03-21
+LND-0389,Andi Sari,Laki-laki,08595597403,Jl. Garuda No. 29,Pekanbaru,2025-07-19,VIP,4,27000,QRIS,2026-01-04
+LND-0390,Ayu Pratama,Perempuan,08844961589,Jl. Garuda No. 69,Pekanbaru,2025-08-03,Premium,5,24000,Tunai,2026-03-01
+LND-0391,Fajar Kusuma,Laki-laki,08804238753,Jl. Paus No. 48,Pekanbaru,2025-04-03,VIP,4,34000,QRIS,2026-04-04
+LND-0392,Budi Santoso,Laki-laki,0865185888,Jl. Garuda No. 78,Pekanbaru,2025-05-02,VIP,4,23000,Transfer Bank,2026-01-18
+LND-0393,Rizky Lestari,Perempuan,08221481391,Jl. Paus No. 48,Pekanbaru,2025-07-22,VIP,4,28000,Transfer Bank,2026-04-25
+LND-0394,Andi Lestari,Laki-laki,08371925544,Jl. Sudirman No. 61,Pekanbaru,2025-02-17,Reguler,5,14000,Transfer Bank,2026-04-25
+LND-0395,Dewi Kusuma,Laki-laki,0862362198,Jl. Riau No. 69,Pekanbaru,2025-06-26,VIP,5,30000,Transfer Bank,2026-04-18
+LND-0396,Fajar Lestari,Perempuan,08767299660,Jl. Nangka No. 12,Pekanbaru,2025-11-14,VIP,5,25000,ShopeePay,2026-01-07
+LND-0397,Siti Sari,Laki-laki,08369850118,Jl. Garuda No. 51,Pekanbaru,2025-10-10,Reguler,4,30000,QRIS,2026-01-02
+LND-0398,Dewi Nugroho,Perempuan,08199049664,Jl. Riau No. 21,Pekanbaru,2025-10-18,Reguler,5,50000,ShopeePay,2026-04-16
+LND-0399,Dina Lestari,Perempuan,08504225144,Jl. HR Soebrantas No. 95,Pekanbaru,2025-06-13,Reguler,4,19000,QRIS,2026-02-28
+LND-0400,Reza Sari,Laki-laki,08546532049,Jl. Garuda No. 58,Pekanbaru,2025-09-06,Premium,5,20000,QRIS,2026-03-13
+LND-0401,Siti Hidayat,Laki-laki,08464290621,Jl. HR Soebrantas No. 98,Pekanbaru,2025-03-27,Reguler,4,34000,ShopeePay,2026-01-05
+LND-0402,Reza Lestari,Perempuan,08734446214,Jl. Garuda No. 67,Pekanbaru,2025-01-15,VIP,5,46000,QRIS,2026-02-04
+LND-0403,Reza Pratama,Laki-laki,08120817375,Jl. Garuda No. 99,Pekanbaru,2025-03-14,Premium,5,8000,ShopeePay,2026-01-21
+LND-0404,Rizky Lestari,Laki-laki,08319044132,Jl. Sudirman No. 19,Pekanbaru,2025-06-03,Reguler,4,43000,QRIS,2026-02-19
+LND-0405,Andi Sari,Laki-laki,08931052374,Jl. Paus No. 71,Pekanbaru,2025-07-24,Premium,4,40000,ShopeePay,2026-03-21
+LND-0406,Fajar Wijaya,Perempuan,08783348860,Jl. Riau No. 10,Pekanbaru,2025-04-23,Premium,4,7000,ShopeePay,2026-02-23
+LND-0407,Reza Lestari,Perempuan,08798910878,Jl. Riau No. 53,Pekanbaru,2025-07-19,Premium,4,13000,QRIS,2026-02-08
+LND-0408,Dina Lestari,Laki-laki,08615088426,Jl. Nangka No. 7,Pekanbaru,2025-09-11,VIP,5,12000,QRIS,2026-03-08
+LND-0409,Reza Santoso,Laki-laki,08342334022,Jl. Garuda No. 47,Pekanbaru,2025-03-04,Premium,5,21000,Transfer Bank,2026-04-12
+LND-0410,Dina Wijaya,Perempuan,08897289854,Jl. HR Soebrantas No. 94,Pekanbaru,2025-01-25,Reguler,5,22000,ShopeePay,2026-02-07
+LND-0411,Reza Nugroho,Perempuan,08416501855,Jl. Paus No. 25,Pekanbaru,2025-05-19,Reguler,4,51000,Transfer Bank,2026-01-20
+LND-0412,Putri Kusuma,Laki-laki,08307782418,Jl. Riau No. 22,Pekanbaru,2025-09-19,Premium,4,7000,ShopeePay,2026-04-16
+LND-0413,Ayu Lestari,Perempuan,08476015084,Jl. Paus No. 98,Pekanbaru,2025-01-27,Premium,5,48000,QRIS,2026-03-24
+LND-0414,Ayu Wijaya,Perempuan,0874376030,Jl. Sudirman No. 15,Pekanbaru,2025-01-03,Premium,5,21000,ShopeePay,2026-02-01
+LND-0415,Putri Pratama,Perempuan,08900481813,Jl. HR Soebrantas No. 78,Pekanbaru,2025-10-04,Reguler,5,30000,ShopeePay,2026-03-17
+LND-0416,Budi Lestari,Perempuan,08553604060,Jl. HR Soebrantas No. 59,Pekanbaru,2025-07-19,Reguler,5,23000,Tunai,2026-04-23
+LND-0417,Reza Santoso,Perempuan,08663648693,Jl. Riau No. 1,Pekanbaru,2025-03-13,VIP,5,44000,Transfer Bank,2026-03-27
+LND-0418,Siti Hidayat,Laki-laki,08471619903,Jl. Paus No. 26,Pekanbaru,2025-07-28,VIP,5,54000,Transfer Bank,2026-01-02
+LND-0419,Andi Lestari,Laki-laki,08789459456,Jl. Riau No. 86,Pekanbaru,2025-04-19,Reguler,5,36000,ShopeePay,2026-03-11
+LND-0420,Reza Sari,Perempuan,08177493609,Jl. Sudirman No. 96,Pekanbaru,2025-02-07,Reguler,4,15000,Tunai,2026-03-16
+LND-0421,Dina Hidayat,Perempuan,08338638251,Jl. Nangka No. 50,Pekanbaru,2025-01-11,VIP,5,19000,Tunai,2026-02-26
+LND-0422,Siti Wijaya,Laki-laki,08773608930,Jl. HR Soebrantas No. 32,Pekanbaru,2025-06-14,Reguler,5,17000,QRIS,2026-04-13
+LND-0423,Budi Sari,Laki-laki,08932123945,Jl. Riau No. 62,Pekanbaru,2025-07-23,VIP,4,12000,ShopeePay,2026-03-11
+LND-0424,Fajar Lestari,Perempuan,0850667113,Jl. Paus No. 73,Pekanbaru,2025-11-22,Reguler,4,25000,Transfer Bank,2026-02-14
+LND-0425,Siti Wijaya,Perempuan,08601054265,Jl. Paus No. 81,Pekanbaru,2025-07-16,VIP,4,35000,Transfer Bank,2026-04-26
+LND-0426,Ayu Kusuma,Laki-laki,08187121553,Jl. Sudirman No. 35,Pekanbaru,2025-04-19,Reguler,5,29000,ShopeePay,2026-04-24
+LND-0427,Dewi Wijaya,Laki-laki,0847474620,Jl. Nangka No. 42,Pekanbaru,2025-06-18,Reguler,5,19000,Tunai,2026-01-06
+LND-0428,Fajar Wijaya,Laki-laki,08768257077,Jl. HR Soebrantas No. 31,Pekanbaru,2025-09-04,Reguler,4,52000,QRIS,2026-04-18
+LND-0429,Fajar Santoso,Laki-laki,08597774920,Jl. Riau No. 73,Pekanbaru,2025-09-21,VIP,5,30000,ShopeePay,2026-02-14
+LND-0430,Siti Hidayat,Laki-laki,08345305727,Jl. Sudirman No. 10,Pekanbaru,2025-02-01,Premium,4,19000,QRIS,2026-01-01
+LND-0431,Budi Nugroho,Perempuan,08957116293,Jl. Paus No. 76,Pekanbaru,2025-08-18,Premium,4,50000,ShopeePay,2026-01-16
+LND-0432,Putri Wijaya,Laki-laki,08950954253,Jl. HR Soebrantas No. 1,Pekanbaru,2025-07-26,Reguler,4,34000,Transfer Bank,2026-03-21
+LND-0433,Siti Santoso,Perempuan,08920952994,Jl. Nangka No. 61,Pekanbaru,2025-06-28,Reguler,5,32000,Tunai,2026-02-14
+LND-0434,Putri Wijaya,Laki-laki,08779616644,Jl. Sudirman No. 0,Pekanbaru,2025-11-14,Premium,5,19000,QRIS,2026-02-24
+LND-0435,Rizky Kusuma,Laki-laki,08514403679,Jl. Nangka No. 36,Pekanbaru,2025-08-20,Reguler,5,38000,Transfer Bank,2026-03-04
+LND-0436,Siti Pratama,Laki-laki,08945885665,Jl. Garuda No. 29,Pekanbaru,2025-11-26,VIP,4,47000,QRIS,2026-04-23
+LND-0437,Dina Santoso,Laki-laki,08513960295,Jl. Paus No. 73,Pekanbaru,2025-01-19,Reguler,5,38000,Tunai,2026-03-15
+LND-0438,Putri Pratama,Laki-laki,08791740793,Jl. HR Soebrantas No. 56,Pekanbaru,2025-08-09,Reguler,5,21000,Tunai,2026-04-21
+LND-0439,Rizky Pratama,Laki-laki,08293877333,Jl. Nangka No. 23,Pekanbaru,2025-01-07,Premium,5,24000,ShopeePay,2026-04-06
+LND-0440,Dina Sari,Laki-laki,08746470489,Jl. Riau No. 42,Pekanbaru,2025-01-17,VIP,5,36000,ShopeePay,2026-03-11
+LND-0441,Putri Santoso,Perempuan,08650845044,Jl. Garuda No. 85,Pekanbaru,2025-07-20,Premium,4,36000,ShopeePay,2026-01-12
+LND-0442,Rizky Lestari,Perempuan,0849375605,Jl. Nangka No. 13,Pekanbaru,2025-06-09,VIP,5,48000,Tunai,2026-02-25
+LND-0443,Ayu Hidayat,Laki-laki,08971503108,Jl. Riau No. 97,Pekanbaru,2025-12-05,Premium,5,33000,Transfer Bank,2026-03-12
+LND-0444,Ayu Lestari,Perempuan,08722118078,Jl. Paus No. 93,Pekanbaru,2025-02-03,Reguler,4,16000,Tunai,2026-04-06
+LND-0445,Budi Wijaya,Laki-laki,08914716028,Jl. HR Soebrantas No. 39,Pekanbaru,2025-05-07,Premium,4,49000,QRIS,2026-01-08
+LND-0446,Dina Sari,Perempuan,08240684869,Jl. Riau No. 88,Pekanbaru,2025-08-21,VIP,4,39000,Transfer Bank,2026-02-21
+LND-0447,Fajar Santoso,Perempuan,08767115311,Jl. Sudirman No. 15,Pekanbaru,2025-11-18,Reguler,4,44000,Transfer Bank,2026-02-27
+LND-0448,Siti Santoso,Perempuan,08631394601,Jl. Paus No. 99,Pekanbaru,2025-11-24,Premium,5,8000,QRIS,2026-02-17
+LND-0449,Ayu Kusuma,Perempuan,08982403796,Jl. Nangka No. 69,Pekanbaru,2025-09-28,VIP,4,21000,ShopeePay,2026-03-19
+LND-0450,Putri Nugroho,Laki-laki,08385498903,Jl. Nangka No. 32,Pekanbaru,2025-11-07,Premium,5,45000,ShopeePay,2026-03-06
+LND-0451,Ayu Lestari,Perempuan,08799942075,Jl. Sudirman No. 13,Pekanbaru,2025-02-09,Premium,4,7000,Transfer Bank,2026-03-15
+LND-0452,Fajar Santoso,Perempuan,08534224949,Jl. Sudirman No. 5,Pekanbaru,2025-01-25,VIP,5,19000,Tunai,2026-01-20
+LND-0453,Ayu Hidayat,Perempuan,08196312180,Jl. HR Soebrantas No. 77,Pekanbaru,2025-09-13,Reguler,5,45000,QRIS,2026-01-08
+LND-0454,Putri Pratama,Laki-laki,08594445631,Jl. Sudirman No. 64,Pekanbaru,2025-06-15,Premium,5,19000,Transfer Bank,2026-03-05
+LND-0455,Ayu Hidayat,Perempuan,08830531720,Jl. Paus No. 18,Pekanbaru,2025-04-15,VIP,5,14000,ShopeePay,2026-02-19
+LND-0456,Fajar Hidayat,Laki-laki,08277198337,Jl. Nangka No. 84,Pekanbaru,2025-01-21,Premium,4,16000,Transfer Bank,2026-04-28
+LND-0457,Putri Sari,Laki-laki,08707086729,Jl. Sudirman No. 46,Pekanbaru,2025-11-13,Reguler,4,36000,Tunai,2026-02-18
+LND-0458,Ayu Santoso,Perempuan,0885871123,Jl. Sudirman No. 97,Pekanbaru,2025-02-22,Premium,4,27000,ShopeePay,2026-02-13
+LND-0459,Rizky Lestari,Perempuan,08933366802,Jl. Sudirman No. 2,Pekanbaru,2025-09-19,VIP,4,34000,Transfer Bank,2026-03-08
+LND-0460,Ayu Wijaya,Perempuan,08459017874,Jl. Garuda No. 39,Pekanbaru,2025-03-22,Premium,4,20000,Tunai,2026-02-02
+LND-0461,Siti Wijaya,Perempuan,08851267336,Jl. Riau No. 20,Pekanbaru,2025-04-25,VIP,4,50000,Tunai,2026-04-28
+LND-0462,Dina Pratama,Laki-laki,08173095679,Jl. Paus No. 35,Pekanbaru,2025-01-26,Reguler,5,53000,Transfer Bank,2026-01-09
+LND-0463,Fajar Hidayat,Perempuan,08536000610,Jl. Nangka No. 28,Pekanbaru,2025-06-27,Reguler,5,41000,ShopeePay,2026-01-08
+LND-0464,Ayu Nugroho,Laki-laki,08442577176,Jl. Sudirman No. 17,Pekanbaru,2025-01-25,Premium,5,31000,ShopeePay,2026-01-27
+LND-0465,Rizky Pratama,Laki-laki,08426529015,Jl. Paus No. 80,Pekanbaru,2025-10-25,VIP,5,49000,ShopeePay,2026-01-16
+LND-0466,Reza Wijaya,Laki-laki,08260085414,Jl. Sudirman No. 7,Pekanbaru,2025-03-06,Reguler,4,23000,Transfer Bank,2026-04-18
+LND-0467,Andi Nugroho,Perempuan,08354376671,Jl. Paus No. 90,Pekanbaru,2025-09-12,Premium,5,23000,QRIS,2026-04-21
+LND-0468,Dewi Sari,Laki-laki,08379652455,Jl. Sudirman No. 59,Pekanbaru,2025-11-01,Reguler,4,33000,ShopeePay,2026-03-06
+LND-0469,Reza Hidayat,Laki-laki,08475811719,Jl. Paus No. 50,Pekanbaru,2025-08-06,Premium,4,28000,Tunai,2026-04-07
+LND-0470,Budi Santoso,Laki-laki,08308806369,Jl. HR Soebrantas No. 78,Pekanbaru,2025-04-08,Reguler,4,40000,QRIS,2026-02-11
+LND-0471,Reza Nugroho,Laki-laki,08889571900,Jl. Garuda No. 5,Pekanbaru,2025-08-05,VIP,5,29000,Transfer Bank,2026-02-01
+LND-0472,Budi Wijaya,Perempuan,08426503933,Jl. Riau No. 93,Pekanbaru,2025-07-17,VIP,4,5000,Transfer Bank,2026-03-23
+LND-0473,Dewi Hidayat,Perempuan,08858687339,Jl. Paus No. 4,Pekanbaru,2025-01-03,Premium,4,32000,Tunai,2026-02-03
+LND-0474,Ayu Santoso,Laki-laki,08340751516,Jl. Riau No. 55,Pekanbaru,2025-03-03,VIP,5,45000,Transfer Bank,2026-01-27
+LND-0475,Andi Nugroho,Perempuan,08719954900,Jl. HR Soebrantas No. 28,Pekanbaru,2025-05-22,VIP,5,7000,QRIS,2026-04-24
+LND-0476,Ayu Kusuma,Perempuan,08755352520,Jl. Garuda No. 76,Pekanbaru,2025-01-20,Reguler,4,50000,Transfer Bank,2026-02-25
+LND-0477,Reza Lestari,Laki-laki,08113029005,Jl. Garuda No. 73,Pekanbaru,2025-07-23,Premium,5,23000,ShopeePay,2026-01-22
+LND-0478,Andi Lestari,Laki-laki,08374780791,Jl. Nangka No. 10,Pekanbaru,2025-03-07,Reguler,5,52000,Tunai,2026-01-24
+LND-0479,Budi Wijaya,Laki-laki,08537001857,Jl. Riau No. 80,Pekanbaru,2025-07-10,Premium,4,49000,Transfer Bank,2026-03-14
+LND-0480,Andi Hidayat,Perempuan,08450947741,Jl. Riau No. 15,Pekanbaru,2025-04-03,VIP,5,14000,Tunai,2026-02-28
+LND-0481,Reza Pratama,Laki-laki,08900555664,Jl. Sudirman No. 5,Pekanbaru,2025-08-01,VIP,5,28000,QRIS,2026-03-11
+LND-0482,Fajar Wijaya,Laki-laki,08409310537,Jl. Nangka No. 31,Pekanbaru,2025-12-07,Premium,4,28000,ShopeePay,2026-04-22
+LND-0483,Dina Sari,Laki-laki,08359439007,Jl. Paus No. 3,Pekanbaru,2025-06-11,VIP,5,6000,QRIS,2026-01-11
+LND-0484,Ayu Kusuma,Laki-laki,08549540632,Jl. Paus No. 57,Pekanbaru,2025-04-20,Premium,4,26000,Transfer Bank,2026-01-24
+LND-0485,Fajar Lestari,Perempuan,08311978549,Jl. HR Soebrantas No. 88,Pekanbaru,2025-06-21,Reguler,5,14000,Transfer Bank,2026-04-17
+LND-0486,Budi Wijaya,Perempuan,08636714059,Jl. Riau No. 48,Pekanbaru,2025-12-16,Reguler,4,15000,QRIS,2026-04-06
+LND-0487,Putri Wijaya,Laki-laki,08145174825,Jl. HR Soebrantas No. 59,Pekanbaru,2025-05-02,Premium,5,37000,ShopeePay,2026-03-13
+LND-0488,Dewi Pratama,Perempuan,08381930709,Jl. Garuda No. 34,Pekanbaru,2025-07-26,Premium,5,33000,QRIS,2026-01-21
+LND-0489,Rizky Kusuma,Perempuan,08579409043,Jl. Sudirman No. 80,Pekanbaru,2025-01-02,Premium,5,12000,ShopeePay,2026-02-23
+LND-0490,Reza Santoso,Perempuan,08261858344,Jl. Riau No. 32,Pekanbaru,2025-11-01,VIP,5,34000,Transfer Bank,2026-03-25
+LND-0491,Dina Hidayat,Perempuan,08436995737,Jl. Paus No. 28,Pekanbaru,2025-04-14,Premium,4,14000,Tunai,2026-01-02
+LND-0492,Dewi Kusuma,Laki-laki,08175705087,Jl. Sudirman No. 20,Pekanbaru,2025-06-20,Reguler,5,11000,ShopeePay,2026-02-27
+LND-0493,Reza Lestari,Perempuan,0874433784,Jl. Paus No. 95,Pekanbaru,2025-01-25,Premium,4,31000,Transfer Bank,2026-03-02
+LND-0494,Fajar Kusuma,Laki-laki,08620736112,Jl. Sudirman No. 71,Pekanbaru,2025-06-07,VIP,5,51000,Transfer Bank,2026-01-23
+LND-0495,Dewi Santoso,Laki-laki,0884712613,Jl. Paus No. 31,Pekanbaru,2025-07-18,Premium,4,27000,QRIS,2026-03-16
+LND-0496,Siti Kusuma,Perempuan,08760159618,Jl. Nangka No. 76,Pekanbaru,2025-10-10,Reguler,4,29000,QRIS,2026-03-05
+LND-0497,Siti Santoso,Perempuan,08355916620,Jl. Paus No. 61,Pekanbaru,2025-10-24,Reguler,5,38000,Tunai,2026-04-22
+LND-0498,Siti Lestari,Perempuan,0810270447,Jl. Riau No. 91,Pekanbaru,2025-03-19,VIP,5,25000,QRIS,2026-04-20
+LND-0499,Reza Pratama,Laki-laki,08599934481,Jl. Riau No. 8,Pekanbaru,2025-01-12,Premium,5,9000,Tunai,2026-01-08
+LND-0500,Dewi Sari,Perempuan,08163577107,Jl. Paus No. 18,Pekanbaru,2025-04-13,VIP,4,40000,Transfer Bank,2026-01-27
+LND-0501,Fajar Kusuma,Laki-laki,085881237,Jl. HR Soebrantas No. 96,Pekanbaru,2025-07-01,VIP,5,52000,ShopeePay,2026-01-07
+LND-0502,Reza Sari,Perempuan,08364058660,Jl. HR Soebrantas No. 98,Pekanbaru,2025-04-10,VIP,4,20000,Tunai,2026-04-21
+LND-0503,Andi Hidayat,Perempuan,08211206528,Jl. Nangka No. 12,Pekanbaru,2025-04-20,VIP,4,32000,Tunai,2026-03-25
+LND-0504,Fajar Kusuma,Laki-laki,08738051149,Jl. Sudirman No. 79,Pekanbaru,2025-02-15,VIP,4,27000,Tunai,2026-04-21
+LND-0505,Budi Pratama,Perempuan,08451269426,Jl. Sudirman No. 29,Pekanbaru,2025-01-12,Premium,5,20000,Transfer Bank,2026-01-06
+LND-0506,Putri Sari,Perempuan,08993700108,Jl. Sudirman No. 72,Pekanbaru,2025-06-21,Reguler,5,44000,QRIS,2026-02-21
+LND-0507,Siti Nugroho,Perempuan,08659269387,Jl. HR Soebrantas No. 47,Pekanbaru,2025-09-17,VIP,4,53000,ShopeePay,2026-03-02
+LND-0508,Dina Pratama,Laki-laki,08310223766,Jl. Paus No. 5,Pekanbaru,2025-12-27,VIP,4,43000,Transfer Bank,2026-02-03
+LND-0509,Dina Wijaya,Perempuan,08257583271,Jl. Paus No. 85,Pekanbaru,2025-05-07,VIP,4,50000,Transfer Bank,2026-03-09
+LND-0510,Ayu Hidayat,Laki-laki,08544049715,Jl. HR Soebrantas No. 57,Pekanbaru,2025-10-02,Reguler,5,10000,QRIS,2026-03-01
+LND-0511,Putri Pratama,Perempuan,08728838914,Jl. Riau No. 49,Pekanbaru,2025-09-09,Reguler,4,47000,ShopeePay,2026-04-25
+LND-0512,Fajar Pratama,Perempuan,0896912663,Jl. Garuda No. 38,Pekanbaru,2025-03-01,VIP,5,9000,Transfer Bank,2026-04-17
+LND-0513,Putri Nugroho,Laki-laki,08147493742,Jl. Riau No. 83,Pekanbaru,2025-01-02,Reguler,4,8000,Transfer Bank,2026-02-07
+LND-0514,Budi Sari,Perempuan,08106229088,Jl. Garuda No. 95,Pekanbaru,2025-02-08,Premium,4,42000,QRIS,2026-02-20
+LND-0515,Reza Sari,Perempuan,08818443272,Jl. HR Soebrantas No. 72,Pekanbaru,2025-04-05,Premium,4,5000,Tunai,2026-04-16
+LND-0516,Siti Kusuma,Perempuan,08885504652,Jl. HR Soebrantas No. 65,Pekanbaru,2025-10-19,Reguler,5,49000,ShopeePay,2026-03-18
+LND-0517,Dina Nugroho,Perempuan,08798035032,Jl. Riau No. 48,Pekanbaru,2025-12-08,VIP,4,47000,Tunai,2026-01-24
+LND-0518,Siti Pratama,Laki-laki,08117594069,Jl. Riau No. 97,Pekanbaru,2025-04-10,VIP,5,16000,QRIS,2026-04-17
+LND-0519,Ayu Lestari,Laki-laki,08544661225,Jl. Garuda No. 2,Pekanbaru,2025-09-14,Reguler,5,25000,Transfer Bank,2026-02-28
+LND-0520,Reza Kusuma,Perempuan,08539565217,Jl. Paus No. 98,Pekanbaru,2025-08-14,Reguler,4,28000,Tunai,2026-02-12
+LND-0521,Fajar Kusuma,Perempuan,0894507279,Jl. Garuda No. 50,Pekanbaru,2025-08-20,Premium,4,38000,Tunai,2026-03-19
+LND-0522,Putri Santoso,Laki-laki,08796844931,Jl. Nangka No. 37,Pekanbaru,2025-02-14,VIP,4,25000,Transfer Bank,2026-01-02
+LND-0523,Rizky Sari,Laki-laki,08520671298,Jl. Sudirman No. 84,Pekanbaru,2025-11-17,Reguler,4,13000,Transfer Bank,2026-02-23
+LND-0524,Dina Lestari,Perempuan,08761993647,Jl. Nangka No. 69,Pekanbaru,2025-06-25,Reguler,4,21000,Tunai,2026-02-26
+LND-0525,Dina Nugroho,Laki-laki,08235148001,Jl. Riau No. 51,Pekanbaru,2025-07-03,Premium,5,30000,Transfer Bank,2026-01-17
+LND-0526,Andi Hidayat,Perempuan,0865898399,Jl. HR Soebrantas No. 81,Pekanbaru,2025-05-11,VIP,4,5000,Tunai,2026-04-04
+LND-0527,Ayu Wijaya,Perempuan,08231494923,Jl. Nangka No. 56,Pekanbaru,2025-04-08,VIP,4,28000,ShopeePay,2026-04-13
+LND-0528,Siti Nugroho,Perempuan,08989250120,Jl. Garuda No. 0,Pekanbaru,2025-08-22,Reguler,4,48000,QRIS,2026-03-09
+LND-0529,Fajar Hidayat,Perempuan,08153543781,Jl. Paus No. 30,Pekanbaru,2025-11-23,Premium,5,10000,Transfer Bank,2026-03-24
+LND-0530,Fajar Wijaya,Laki-laki,08362512204,Jl. Sudirman No. 78,Pekanbaru,2025-03-17,VIP,4,34000,Tunai,2026-03-21
+LND-0531,Ayu Wijaya,Laki-laki,08900599386,Jl. Nangka No. 16,Pekanbaru,2025-06-03,VIP,4,44000,QRIS,2026-03-25
+LND-0532,Budi Nugroho,Laki-laki,08196287797,Jl. Nangka No. 4,Pekanbaru,2025-09-07,Premium,5,24000,Transfer Bank,2026-01-05
+LND-0533,Siti Lestari,Laki-laki,08106501374,Jl. Riau No. 94,Pekanbaru,2025-06-09,Reguler,4,6000,Transfer Bank,2026-03-24
+LND-0534,Rizky Wijaya,Laki-laki,08403199375,Jl. Garuda No. 11,Pekanbaru,2025-04-06,Premium,5,8000,Transfer Bank,2026-01-28
+LND-0535,Dewi Hidayat,Perempuan,08405931946,Jl. HR Soebrantas No. 44,Pekanbaru,2025-09-27,Premium,5,18000,QRIS,2026-03-14
+LND-0536,Ayu Pratama,Laki-laki,08746252684,Jl. Riau No. 19,Pekanbaru,2025-01-22,VIP,5,48000,Tunai,2026-03-13
+LND-0537,Fajar Kusuma,Laki-laki,08542158084,Jl. HR Soebrantas No. 64,Pekanbaru,2025-10-15,Reguler,4,17000,Transfer Bank,2026-01-28
+LND-0538,Reza Wijaya,Laki-laki,08624446513,Jl. Riau No. 16,Pekanbaru,2025-03-07,Premium,4,48000,QRIS,2026-04-05
+LND-0539,Ayu Wijaya,Perempuan,08174175875,Jl. Garuda No. 78,Pekanbaru,2025-08-20,VIP,5,30000,Tunai,2026-03-15
+LND-0540,Putri Kusuma,Perempuan,0822844150,Jl. Nangka No. 11,Pekanbaru,2025-05-02,VIP,5,52000,Tunai,2026-02-05
+LND-0541,Andi Sari,Perempuan,08338669828,Jl. HR Soebrantas No. 11,Pekanbaru,2025-08-19,Premium,5,24000,QRIS,2026-02-20
+LND-0542,Budi Nugroho,Laki-laki,08860565996,Jl. Garuda No. 53,Pekanbaru,2025-07-13,Reguler,4,20000,Transfer Bank,2026-03-15
+LND-0543,Reza Sari,Laki-laki,08466442649,Jl. Nangka No. 75,Pekanbaru,2025-02-01,Reguler,4,13000,QRIS,2026-02-20
+LND-0544,Dina Wijaya,Laki-laki,08650708248,Jl. Sudirman No. 57,Pekanbaru,2025-02-08,Reguler,4,17000,ShopeePay,2026-02-17
+LND-0545,Reza Lestari,Perempuan,08848679670,Jl. Paus No. 59,Pekanbaru,2025-08-21,VIP,4,30000,Transfer Bank,2026-02-23
+LND-0546,Siti Wijaya,Perempuan,08733740873,Jl. Nangka No. 79,Pekanbaru,2025-12-03,Reguler,4,35000,QRIS,2026-02-08
+LND-0547,Fajar Kusuma,Laki-laki,08137211475,Jl. HR Soebrantas No. 75,Pekanbaru,2025-05-03,Reguler,5,12000,Tunai,2026-04-24
+LND-0548,Budi Sari,Perempuan,08784389733,Jl. HR Soebrantas No. 61,Pekanbaru,2025-06-19,VIP,4,36000,ShopeePay,2026-01-09
+LND-0549,Dina Kusuma,Perempuan,08357997627,Jl. Riau No. 67,Pekanbaru,2025-09-25,VIP,4,41000,ShopeePay,2026-03-23
+LND-0550,Putri Sari,Laki-laki,08789961267,Jl. Sudirman No. 50,Pekanbaru,2025-03-06,Reguler,5,19000,Transfer Bank,2026-02-13
+LND-0551,Ayu Sari,Perempuan,08205644294,Jl. Paus No. 28,Pekanbaru,2025-06-10,VIP,4,32000,Transfer Bank,2026-03-23
+LND-0552,Putri Nugroho,Perempuan,08611001652,Jl. Garuda No. 56,Pekanbaru,2025-06-07,Premium,5,8000,ShopeePay,2026-02-20
+LND-0553,Siti Lestari,Laki-laki,08845555748,Jl. HR Soebrantas No. 22,Pekanbaru,2025-10-21,Reguler,4,38000,ShopeePay,2026-03-14
+LND-0554,Rizky Wijaya,Perempuan,08336787390,Jl. HR Soebrantas No. 90,Pekanbaru,2025-07-12,Premium,5,41000,Transfer Bank,2026-03-06
+LND-0555,Dina Sari,Perempuan,08455198460,Jl. HR Soebrantas No. 27,Pekanbaru,2025-02-07,Premium,4,50000,ShopeePay,2026-02-04
+LND-0556,Andi Santoso,Perempuan,08242952867,Jl. HR Soebrantas No. 4,Pekanbaru,2025-08-13,Reguler,5,6000,Tunai,2026-01-21
+LND-0557,Putri Lestari,Perempuan,08430940497,Jl. Paus No. 42,Pekanbaru,2025-08-24,Reguler,4,46000,Transfer Bank,2026-01-17
+LND-0558,Fajar Wijaya,Perempuan,08425815606,Jl. Garuda No. 83,Pekanbaru,2025-10-25,Reguler,4,36000,ShopeePay,2026-04-02
+LND-0559,Ayu Pratama,Perempuan,08389243858,Jl. Sudirman No. 73,Pekanbaru,2025-10-11,Premium,5,30000,ShopeePay,2026-01-12
+LND-0560,Rizky Sari,Perempuan,0827286889,Jl. Paus No. 30,Pekanbaru,2025-02-16,Reguler,4,20000,Transfer Bank,2026-01-03
+LND-0561,Ayu Pratama,Laki-laki,08621613531,Jl. Riau No. 5,Pekanbaru,2025-04-10,VIP,5,40000,ShopeePay,2026-02-23
+LND-0562,Dina Hidayat,Perempuan,08549216782,Jl. Riau No. 8,Pekanbaru,2025-09-13,Premium,4,23000,Transfer Bank,2026-04-14
+LND-0563,Siti Lestari,Laki-laki,08265084205,Jl. HR Soebrantas No. 40,Pekanbaru,2025-11-17,Premium,5,40000,QRIS,2026-04-03
+LND-0564,Reza Hidayat,Perempuan,0853120119,Jl. Paus No. 14,Pekanbaru,2025-02-19,Premium,4,53000,Tunai,2026-04-18
+LND-0565,Dewi Sari,Laki-laki,08571483641,Jl. Sudirman No. 44,Pekanbaru,2025-12-08,Premium,5,42000,QRIS,2026-03-25
+LND-0566,Putri Wijaya,Perempuan,08524927702,Jl. Riau No. 94,Pekanbaru,2025-08-07,Reguler,4,20000,ShopeePay,2026-03-15
+LND-0567,Dina Sari,Laki-laki,08751549281,Jl. Riau No. 81,Pekanbaru,2025-06-27,Reguler,5,49000,QRIS,2026-04-14
+LND-0568,Andi Nugroho,Laki-laki,08711937607,Jl. Garuda No. 72,Pekanbaru,2025-05-15,VIP,4,12000,Tunai,2026-01-15
+LND-0569,Andi Hidayat,Laki-laki,08787519454,Jl. HR Soebrantas No. 60,Pekanbaru,2025-11-18,Premium,4,13000,Transfer Bank,2026-04-21
+LND-0570,Putri Santoso,Laki-laki,08788761749,Jl. Sudirman No. 54,Pekanbaru,2025-02-08,VIP,4,6000,Tunai,2026-01-15
+LND-0571,Rizky Nugroho,Laki-laki,08589317621,Jl. Garuda No. 34,Pekanbaru,2025-02-14,Reguler,4,30000,ShopeePay,2026-02-05
+LND-0572,Budi Santoso,Perempuan,0857550369,Jl. Sudirman No. 51,Pekanbaru,2025-06-05,VIP,4,45000,QRIS,2026-02-24
+LND-0573,Reza Kusuma,Perempuan,08218515151,Jl. HR Soebrantas No. 43,Pekanbaru,2025-10-17,Premium,5,28000,QRIS,2026-02-13
+LND-0574,Siti Hidayat,Laki-laki,08689381228,Jl. Garuda No. 43,Pekanbaru,2025-05-09,Premium,4,25000,Transfer Bank,2026-01-04
+LND-0575,Fajar Nugroho,Laki-laki,08986102103,Jl. Riau No. 56,Pekanbaru,2025-01-19,Premium,4,47000,Transfer Bank,2026-01-15
+LND-0576,Putri Lestari,Perempuan,0883860122,Jl. Riau No. 41,Pekanbaru,2025-09-02,Premium,5,13000,QRIS,2026-02-10
+LND-0577,Andi Lestari,Laki-laki,08869638514,Jl. Riau No. 74,Pekanbaru,2025-04-01,Reguler,5,44000,Transfer Bank,2026-03-19
+LND-0578,Dewi Hidayat,Laki-laki,08390798473,Jl. Riau No. 99,Pekanbaru,2025-12-20,Premium,4,35000,Tunai,2026-04-25
+LND-0579,Dina Wijaya,Laki-laki,08784108201,Jl. Paus No. 64,Pekanbaru,2025-06-27,VIP,4,32000,Transfer Bank,2026-02-02
+LND-0580,Budi Wijaya,Laki-laki,08355112157,Jl. Garuda No. 92,Pekanbaru,2025-09-09,Reguler,4,52000,Transfer Bank,2026-03-19
+LND-0581,Fajar Wijaya,Perempuan,08461735859,Jl. Sudirman No. 13,Pekanbaru,2025-05-22,Premium,5,37000,QRIS,2026-03-19
+LND-0582,Putri Pratama,Laki-laki,08965233015,Jl. Paus No. 44,Pekanbaru,2025-03-25,Premium,4,5000,ShopeePay,2026-02-19
+LND-0583,Dewi Sari,Perempuan,0898426112,Jl. Nangka No. 34,Pekanbaru,2025-10-09,Reguler,5,20000,ShopeePay,2026-01-20
+LND-0584,Reza Nugroho,Perempuan,08987212786,Jl. Paus No. 24,Pekanbaru,2025-08-08,Reguler,4,30000,QRIS,2026-01-28
+LND-0585,Rizky Nugroho,Perempuan,08725109970,Jl. Paus No. 90,Pekanbaru,2025-10-11,Premium,5,54000,Transfer Bank,2026-02-11
+LND-0586,Budi Pratama,Perempuan,08480970783,Jl. HR Soebrantas No. 58,Pekanbaru,2025-03-10,Premium,4,26000,Tunai,2026-03-26
+LND-0587,Andi Kusuma,Perempuan,08643099595,Jl. Garuda No. 97,Pekanbaru,2025-12-23,Reguler,5,48000,Tunai,2026-04-21
+LND-0588,Fajar Nugroho,Laki-laki,08895096770,Jl. Sudirman No. 11,Pekanbaru,2025-09-17,VIP,5,52000,ShopeePay,2026-03-17
+LND-0589,Siti Nugroho,Laki-laki,08215115201,Jl. Sudirman No. 24,Pekanbaru,2025-05-16,Premium,4,21000,QRIS,2026-04-07
+LND-0590,Rizky Kusuma,Laki-laki,08903113197,Jl. Nangka No. 46,Pekanbaru,2025-01-23,VIP,4,18000,Tunai,2026-04-04
+LND-0591,Rizky Hidayat,Laki-laki,08421051884,Jl. Riau No. 60,Pekanbaru,2025-02-16,VIP,5,50000,Transfer Bank,2026-03-05
+LND-0592,Dina Kusuma,Laki-laki,08947751227,Jl. Paus No. 19,Pekanbaru,2025-11-20,Premium,5,40000,Transfer Bank,2026-01-19
+LND-0593,Siti Santoso,Perempuan,08110637224,Jl. HR Soebrantas No. 32,Pekanbaru,2025-06-15,Premium,5,13000,QRIS,2026-04-16
+LND-0594,Reza Hidayat,Laki-laki,08973229279,Jl. Paus No. 43,Pekanbaru,2025-11-04,VIP,4,21000,Tunai,2026-03-26
+LND-0595,Andi Nugroho,Laki-laki,08380330127,Jl. HR Soebrantas No. 28,Pekanbaru,2025-12-12,Reguler,5,14000,QRIS,2026-03-27
+LND-0596,Fajar Sari,Laki-laki,08790065902,Jl. Nangka No. 14,Pekanbaru,2025-03-20,Premium,4,52000,QRIS,2026-03-05
+LND-0597,Dewi Lestari,Perempuan,08280825701,Jl. Sudirman No. 25,Pekanbaru,2025-08-02,Premium,4,24000,Transfer Bank,2026-01-10
+LND-0598,Putri Hidayat,Laki-laki,08996164623,Jl. HR Soebrantas No. 94,Pekanbaru,2025-03-13,Premium,5,24000,QRIS,2026-04-16
+LND-0599,Fajar Wijaya,Perempuan,0886683314,Jl. Garuda No. 81,Pekanbaru,2025-10-14,Reguler,4,48000,Tunai,2026-01-12
+LND-0600,Dewi Lestari,Perempuan,08444151602,Jl. Paus No. 54,Pekanbaru,2025-02-10,VIP,4,24000,Tunai,2026-02-28
+LND-0601,Fajar Lestari,Laki-laki,08334384946,Jl. Nangka No. 69,Pekanbaru,2025-09-21,Premium,5,9000,Transfer Bank,2026-01-23
+LND-0602,Dina Lestari,Perempuan,08714114345,Jl. Sudirman No. 81,Pekanbaru,2025-04-11,Premium,4,14000,QRIS,2026-03-18
+LND-0603,Budi Lestari,Laki-laki,08523486825,Jl. Nangka No. 52,Pekanbaru,2025-03-21,VIP,4,29000,Tunai,2026-03-28
+LND-0604,Andi Kusuma,Perempuan,08415179371,Jl. HR Soebrantas No. 88,Pekanbaru,2025-08-06,VIP,4,35000,Tunai,2026-03-10
+LND-0605,Putri Hidayat,Laki-laki,08774368381,Jl. Sudirman No. 86,Pekanbaru,2025-03-10,Reguler,5,52000,Transfer Bank,2026-04-13
+LND-0606,Rizky Pratama,Perempuan,08402006763,Jl. Nangka No. 1,Pekanbaru,2025-05-13,Reguler,4,47000,QRIS,2026-03-07
+LND-0607,Budi Nugroho,Laki-laki,08253607911,Jl. Nangka No. 50,Pekanbaru,2025-10-13,Reguler,5,8000,Tunai,2026-01-11
+LND-0608,Reza Santoso,Perempuan,08471711530,Jl. HR Soebrantas No. 96,Pekanbaru,2025-08-20,VIP,5,30000,QRIS,2026-02-24
+LND-0609,Reza Sari,Perempuan,08805918555,Jl. HR Soebrantas No. 1,Pekanbaru,2025-03-18,Reguler,4,11000,Tunai,2026-02-05
+LND-0610,Dewi Hidayat,Laki-laki,08842457630,Jl. Sudirman No. 74,Pekanbaru,2025-12-13,Premium,4,54000,QRIS,2026-03-16
+LND-0611,Andi Pratama,Perempuan,08526746725,Jl. Paus No. 34,Pekanbaru,2025-05-20,Premium,5,30000,ShopeePay,2026-02-16
+LND-0612,Reza Wijaya,Perempuan,08145093339,Jl. Nangka No. 82,Pekanbaru,2025-01-09,VIP,5,33000,Tunai,2026-04-28
+LND-0613,Budi Santoso,Perempuan,08139960780,Jl. Paus No. 70,Pekanbaru,2025-12-08,Reguler,4,33000,QRIS,2026-01-10
+LND-0614,Siti Sari,Perempuan,08401497621,Jl. HR Soebrantas No. 28,Pekanbaru,2025-07-28,Premium,4,29000,ShopeePay,2026-04-05
+LND-0615,Andi Wijaya,Perempuan,08755649078,Jl. Garuda No. 4,Pekanbaru,2025-12-25,Premium,5,9000,Transfer Bank,2026-04-13
+LND-0616,Dewi Santoso,Laki-laki,08195277417,Jl. Garuda No. 7,Pekanbaru,2025-10-13,Reguler,4,20000,ShopeePay,2026-03-19
+LND-0617,Siti Nugroho,Perempuan,08641418137,Jl. Sudirman No. 63,Pekanbaru,2025-06-09,VIP,5,26000,Transfer Bank,2026-03-14
+LND-0618,Reza Lestari,Laki-laki,08704042098,Jl. Garuda No. 46,Pekanbaru,2025-04-15,Premium,4,13000,Transfer Bank,2026-02-25
+LND-0619,Reza Lestari,Perempuan,08109746994,Jl. Garuda No. 74,Pekanbaru,2025-03-07,VIP,5,24000,ShopeePay,2026-03-26
+LND-0620,Siti Pratama,Laki-laki,08325364697,Jl. HR Soebrantas No. 85,Pekanbaru,2025-07-17,Reguler,5,22000,Tunai,2026-02-27
+LND-0621,Dewi Hidayat,Perempuan,08850024822,Jl. HR Soebrantas No. 21,Pekanbaru,2025-05-08,Premium,4,8000,QRIS,2026-01-23
+LND-0622,Fajar Wijaya,Laki-laki,08151808961,Jl. Riau No. 54,Pekanbaru,2025-12-21,Premium,5,10000,QRIS,2026-02-17
+LND-0623,Andi Wijaya,Laki-laki,08425273290,Jl. Sudirman No. 13,Pekanbaru,2025-01-12,VIP,5,8000,Transfer Bank,2026-03-28
+LND-0624,Ayu Santoso,Laki-laki,08491172375,Jl. HR Soebrantas No. 79,Pekanbaru,2025-06-27,Reguler,4,19000,QRIS,2026-02-08
+LND-0625,Dewi Hidayat,Perempuan,08637714786,Jl. Riau No. 99,Pekanbaru,2025-04-18,Reguler,4,45000,ShopeePay,2026-04-02
+LND-0626,Fajar Hidayat,Laki-laki,08309145858,Jl. Nangka No. 66,Pekanbaru,2025-05-21,Premium,5,16000,ShopeePay,2026-02-14
+LND-0627,Siti Nugroho,Perempuan,08203766065,Jl. Nangka No. 89,Pekanbaru,2025-08-24,VIP,5,31000,QRIS,2026-01-26
+LND-0628,Dina Kusuma,Laki-laki,08340286639,Jl. Paus No. 17,Pekanbaru,2025-02-19,VIP,4,22000,Transfer Bank,2026-01-06
+LND-0629,Rizky Santoso,Laki-laki,08227182462,Jl. Nangka No. 91,Pekanbaru,2025-12-06,VIP,5,20000,Transfer Bank,2026-03-08
+LND-0630,Fajar Lestari,Perempuan,08299450745,Jl. Riau No. 8,Pekanbaru,2025-04-09,Premium,5,41000,Tunai,2026-03-22
+LND-0631,Budi Sari,Perempuan,08946084334,Jl. Riau No. 99,Pekanbaru,2025-09-22,Reguler,5,22000,Tunai,2026-01-23
+LND-0632,Andi Sari,Laki-laki,08844388486,Jl. Paus No. 42,Pekanbaru,2025-12-14,Reguler,4,6000,QRIS,2026-02-26
+LND-0633,Andi Lestari,Perempuan,08862712654,Jl. HR Soebrantas No. 24,Pekanbaru,2025-06-22,Reguler,5,28000,Transfer Bank,2026-01-08
+LND-0634,Ayu Nugroho,Perempuan,0850537223,Jl. Nangka No. 54,Pekanbaru,2025-07-10,Premium,4,53000,ShopeePay,2026-01-04
+LND-0635,Dewi Lestari,Laki-laki,08667068565,Jl. Sudirman No. 13,Pekanbaru,2025-07-07,VIP,4,19000,Tunai,2026-02-21
+LND-0636,Dina Santoso,Perempuan,08136425402,Jl. Sudirman No. 84,Pekanbaru,2025-11-20,VIP,5,26000,QRIS,2026-04-01
+LND-0637,Dewi Kusuma,Laki-laki,08659745159,Jl. Garuda No. 33,Pekanbaru,2025-06-10,VIP,5,15000,QRIS,2026-02-03
+LND-0638,Reza Hidayat,Perempuan,08525856769,Jl. Sudirman No. 72,Pekanbaru,2025-06-18,VIP,4,35000,QRIS,2026-02-13
+LND-0639,Reza Santoso,Laki-laki,08135182828,Jl. Nangka No. 92,Pekanbaru,2025-03-21,VIP,5,41000,Tunai,2026-01-12
+LND-0640,Andi Hidayat,Laki-laki,08911202782,Jl. HR Soebrantas No. 93,Pekanbaru,2025-06-21,Premium,5,49000,Tunai,2026-03-23
+LND-0641,Budi Pratama,Perempuan,08284325863,Jl. Garuda No. 6,Pekanbaru,2025-02-15,Reguler,5,43000,Tunai,2026-01-08
+LND-0642,Rizky Nugroho,Perempuan,08322732919,Jl. Sudirman No. 89,Pekanbaru,2025-09-14,Reguler,5,7000,Transfer Bank,2026-04-24
+LND-0643,Dina Wijaya,Perempuan,08807291601,Jl. Paus No. 86,Pekanbaru,2025-07-23,Reguler,4,8000,QRIS,2026-01-12
+LND-0644,Dewi Hidayat,Laki-laki,08575243916,Jl. HR Soebrantas No. 11,Pekanbaru,2025-11-11,VIP,4,37000,Transfer Bank,2026-02-14
+LND-0645,Dina Sari,Perempuan,08492613963,Jl. HR Soebrantas No. 31,Pekanbaru,2025-05-17,Reguler,5,20000,Tunai,2026-04-27
+LND-0646,Dina Nugroho,Perempuan,08505978518,Jl. Sudirman No. 10,Pekanbaru,2025-07-22,Premium,4,43000,Tunai,2026-02-24
+LND-0647,Dewi Hidayat,Perempuan,08559395076,Jl. Sudirman No. 99,Pekanbaru,2025-11-18,Premium,4,50000,Transfer Bank,2026-02-17
+LND-0648,Budi Kusuma,Perempuan,0839033993,Jl. Paus No. 33,Pekanbaru,2025-10-25,VIP,5,49000,ShopeePay,2026-01-27
+LND-0649,Rizky Wijaya,Laki-laki,08563734175,Jl. Paus No. 94,Pekanbaru,2025-10-25,Premium,4,14000,ShopeePay,2026-02-22
+LND-0650,Dewi Pratama,Laki-laki,08771899247,Jl. Sudirman No. 64,Pekanbaru,2025-04-02,Premium,5,18000,Tunai,2026-01-08
+LND-0651,Putri Nugroho,Perempuan,08799423380,Jl. HR Soebrantas No. 8,Pekanbaru,2025-05-25,Premium,5,50000,Tunai,2026-02-20
+LND-0652,Andi Sari,Laki-laki,08342792832,Jl. HR Soebrantas No. 27,Pekanbaru,2025-11-07,VIP,4,28000,Transfer Bank,2026-01-05
+LND-0653,Budi Kusuma,Perempuan,08781406788,Jl. Sudirman No. 85,Pekanbaru,2025-05-15,Reguler,4,14000,Transfer Bank,2026-01-23
+LND-0654,Dina Santoso,Laki-laki,08345756869,Jl. HR Soebrantas No. 32,Pekanbaru,2025-04-03,VIP,5,38000,ShopeePay,2026-01-26
+LND-0655,Rizky Hidayat,Perempuan,08401855058,Jl. Paus No. 73,Pekanbaru,2025-07-03,VIP,4,52000,Transfer Bank,2026-01-22
+LND-0656,Rizky Wijaya,Laki-laki,08488446342,Jl. Riau No. 91,Pekanbaru,2025-08-06,Reguler,5,6000,ShopeePay,2026-04-22
+LND-0657,Fajar Wijaya,Perempuan,08393210059,Jl. Paus No. 52,Pekanbaru,2025-12-10,VIP,4,26000,QRIS,2026-03-12
+LND-0658,Reza Lestari,Laki-laki,08898407999,Jl. Riau No. 43,Pekanbaru,2025-07-07,Premium,5,24000,QRIS,2026-03-23
+LND-0659,Rizky Kusuma,Perempuan,08335080941,Jl. Sudirman No. 24,Pekanbaru,2025-09-28,Premium,4,20000,Transfer Bank,2026-04-17
+LND-0660,Dewi Sari,Perempuan,0826325044,Jl. Garuda No. 36,Pekanbaru,2025-05-20,Premium,4,16000,Tunai,2026-01-22
+LND-0661,Dina Santoso,Laki-laki,08824593461,Jl. Riau No. 16,Pekanbaru,2025-11-13,Reguler,4,10000,Transfer Bank,2026-03-10
+LND-0662,Fajar Hidayat,Laki-laki,08681412202,Jl. Nangka No. 18,Pekanbaru,2025-08-06,Reguler,4,16000,QRIS,2026-04-16
+LND-0663,Reza Pratama,Perempuan,08997444697,Jl. Riau No. 20,Pekanbaru,2025-12-26,VIP,4,46000,Transfer Bank,2026-01-03
+LND-0664,Dina Nugroho,Perempuan,08985443140,Jl. Nangka No. 6,Pekanbaru,2025-10-11,Reguler,5,16000,QRIS,2026-04-09
+LND-0665,Siti Santoso,Perempuan,08243350648,Jl. Riau No. 69,Pekanbaru,2025-02-05,VIP,4,39000,Tunai,2026-02-25
+LND-0666,Andi Santoso,Laki-laki,08931024472,Jl. Paus No. 10,Pekanbaru,2025-11-01,Premium,5,52000,Tunai,2026-04-17
+LND-0667,Budi Nugroho,Laki-laki,085447396,Jl. Nangka No. 32,Pekanbaru,2025-09-22,Premium,4,7000,Tunai,2026-02-22
+LND-0668,Dina Pratama,Perempuan,08628355591,Jl. Sudirman No. 93,Pekanbaru,2025-06-10,Reguler,4,23000,QRIS,2026-02-27
+LND-0669,Dina Nugroho,Perempuan,08407582465,Jl. HR Soebrantas No. 50,Pekanbaru,2025-10-21,Premium,4,19000,Transfer Bank,2026-02-19
+LND-0670,Fajar Hidayat,Perempuan,08236242601,Jl. Sudirman No. 1,Pekanbaru,2025-04-01,Reguler,5,8000,ShopeePay,2026-01-17
+LND-0671,Rizky Santoso,Perempuan,08909529087,Jl. Riau No. 25,Pekanbaru,2025-10-21,Reguler,5,40000,Tunai,2026-04-22
+LND-0672,Reza Sari,Perempuan,08937757088,Jl. Paus No. 63,Pekanbaru,2025-08-13,VIP,4,30000,Tunai,2026-04-03
+LND-0673,Dina Kusuma,Perempuan,08910984063,Jl. Sudirman No. 93,Pekanbaru,2025-11-08,Reguler,4,53000,Transfer Bank,2026-01-24
+LND-0674,Reza Pratama,Laki-laki,08916591221,Jl. Paus No. 7,Pekanbaru,2025-07-19,Premium,4,19000,ShopeePay,2026-02-01
+LND-0675,Ayu Sari,Laki-laki,08911990787,Jl. Nangka No. 92,Pekanbaru,2025-02-18,Premium,5,32000,Tunai,2026-02-07
+LND-0676,Fajar Santoso,Perempuan,08980243054,Jl. Riau No. 51,Pekanbaru,2025-03-05,VIP,4,51000,QRIS,2026-04-03
+LND-0677,Andi Santoso,Laki-laki,08727281469,Jl. Paus No. 31,Pekanbaru,2025-05-07,Premium,5,43000,Transfer Bank,2026-02-02
+LND-0678,Fajar Hidayat,Perempuan,08571123967,Jl. Riau No. 49,Pekanbaru,2025-12-22,VIP,5,49000,QRIS,2026-02-20
+LND-0679,Rizky Sari,Perempuan,08381514122,Jl. Paus No. 74,Pekanbaru,2025-05-06,Premium,4,18000,ShopeePay,2026-04-25
+LND-0680,Dewi Lestari,Laki-laki,08274089701,Jl. Paus No. 12,Pekanbaru,2025-06-17,Premium,4,52000,QRIS,2026-04-10
+LND-0681,Andi Wijaya,Laki-laki,08285206141,Jl. Sudirman No. 90,Pekanbaru,2025-12-07,Premium,4,46000,QRIS,2026-04-21
+LND-0682,Dewi Hidayat,Laki-laki,08675739172,Jl. HR Soebrantas No. 60,Pekanbaru,2025-05-14,VIP,5,18000,ShopeePay,2026-01-28
+LND-0683,Dewi Wijaya,Perempuan,08400554461,Jl. Nangka No. 55,Pekanbaru,2025-06-11,Premium,4,38000,Transfer Bank,2026-04-28
+LND-0684,Dina Santoso,Laki-laki,08664866135,Jl. Garuda No. 51,Pekanbaru,2025-08-02,Premium,4,5000,Tunai,2026-02-21
+LND-0685,Fajar Hidayat,Laki-laki,08521986708,Jl. Garuda No. 99,Pekanbaru,2025-11-09,Premium,5,26000,ShopeePay,2026-04-01
+LND-0686,Reza Hidayat,Perempuan,08243032409,Jl. Garuda No. 26,Pekanbaru,2025-10-23,Reguler,5,53000,ShopeePay,2026-01-05
+LND-0687,Reza Lestari,Laki-laki,08602041317,Jl. Garuda No. 6,Pekanbaru,2025-10-12,Reguler,5,54000,Transfer Bank,2026-03-25
+LND-0688,Dewi Kusuma,Laki-laki,08722239677,Jl. Paus No. 78,Pekanbaru,2025-09-06,VIP,5,46000,ShopeePay,2026-01-07
+LND-0689,Fajar Wijaya,Perempuan,08762930229,Jl. Paus No. 11,Pekanbaru,2025-10-27,VIP,4,41000,ShopeePay,2026-01-27
+LND-0690,Budi Kusuma,Laki-laki,08414672022,Jl. Garuda No. 65,Pekanbaru,2025-02-17,VIP,4,35000,QRIS,2026-01-21
+LND-0691,Ayu Sari,Perempuan,08335504219,Jl. Riau No. 64,Pekanbaru,2025-08-26,Premium,5,21000,Tunai,2026-03-08
+LND-0692,Andi Kusuma,Laki-laki,08996678309,Jl. Sudirman No. 70,Pekanbaru,2025-03-13,VIP,4,27000,Tunai,2026-03-02
+LND-0693,Siti Kusuma,Laki-laki,0892937475,Jl. Paus No. 78,Pekanbaru,2025-10-14,Reguler,4,47000,Transfer Bank,2026-04-09
+LND-0694,Dewi Nugroho,Laki-laki,0852490998,Jl. Paus No. 88,Pekanbaru,2025-09-08,Premium,5,23000,QRIS,2026-02-25
+LND-0695,Rizky Nugroho,Laki-laki,08240398924,Jl. Sudirman No. 50,Pekanbaru,2025-07-26,VIP,4,34000,ShopeePay,2026-02-20
+LND-0696,Fajar Nugroho,Perempuan,08916092638,Jl. HR Soebrantas No. 89,Pekanbaru,2025-01-02,Reguler,4,30000,Tunai,2026-04-07
+LND-0697,Dewi Nugroho,Laki-laki,08963736158,Jl. Nangka No. 13,Pekanbaru,2025-04-14,Premium,5,25000,Tunai,2026-04-16
+LND-0698,Putri Pratama,Laki-laki,08274356224,Jl. Paus No. 76,Pekanbaru,2025-08-06,Reguler,5,17000,QRIS,2026-02-15
+LND-0699,Putri Wijaya,Laki-laki,08355853194,Jl. HR Soebrantas No. 2,Pekanbaru,2025-01-27,VIP,5,43000,ShopeePay,2026-04-12
+LND-0700,Fajar Sari,Perempuan,08909413806,Jl. Paus No. 91,Pekanbaru,2025-10-14,VIP,5,46000,ShopeePay,2026-02-26
+LND-0701,Dina Nugroho,Laki-laki,08350168619,Jl. Garuda No. 18,Pekanbaru,2025-08-02,Reguler,4,54000,Tunai,2026-02-18
+LND-0702,Budi Nugroho,Laki-laki,08838537908,Jl. HR Soebrantas No. 11,Pekanbaru,2025-01-05,VIP,5,54000,Tunai,2026-03-01
+LND-0703,Budi Wijaya,Perempuan,08930378892,Jl. Riau No. 82,Pekanbaru,2025-03-07,Premium,5,14000,QRIS,2026-01-03
+LND-0704,Andi Hidayat,Laki-laki,08354275593,Jl. HR Soebrantas No. 25,Pekanbaru,2025-11-19,Premium,5,14000,ShopeePay,2026-02-08
+LND-0705,Fajar Lestari,Laki-laki,08767051292,Jl. Sudirman No. 25,Pekanbaru,2025-07-13,Reguler,5,8000,ShopeePay,2026-04-23
+LND-0706,Putri Hidayat,Laki-laki,08562202798,Jl. Nangka No. 35,Pekanbaru,2025-10-05,Premium,4,6000,Tunai,2026-02-26
+LND-0707,Dewi Hidayat,Laki-laki,08312313714,Jl. Garuda No. 43,Pekanbaru,2025-05-04,VIP,4,36000,Transfer Bank,2026-02-09
+LND-0708,Rizky Wijaya,Perempuan,0816214653,Jl. Garuda No. 45,Pekanbaru,2025-11-26,Reguler,4,49000,ShopeePay,2026-01-28
+LND-0709,Dewi Santoso,Laki-laki,08431547601,Jl. Nangka No. 14,Pekanbaru,2025-03-05,Premium,4,41000,Transfer Bank,2026-01-27
+LND-0710,Andi Hidayat,Laki-laki,08758001520,Jl. Riau No. 70,Pekanbaru,2025-07-16,Premium,5,14000,QRIS,2026-01-21
+LND-0711,Dina Lestari,Laki-laki,0862882198,Jl. HR Soebrantas No. 3,Pekanbaru,2025-12-24,Reguler,4,41000,Tunai,2026-01-10
+LND-0712,Siti Pratama,Laki-laki,0890930528,Jl. Nangka No. 82,Pekanbaru,2025-10-13,VIP,4,31000,Tunai,2026-01-03
+LND-0713,Siti Wijaya,Perempuan,08461975479,Jl. Riau No. 53,Pekanbaru,2025-12-12,VIP,5,10000,Tunai,2026-03-21
+LND-0714,Fajar Nugroho,Laki-laki,08212649251,Jl. Riau No. 25,Pekanbaru,2025-07-07,Premium,4,15000,Tunai,2026-02-10
+LND-0715,Budi Pratama,Perempuan,085394594,Jl. Paus No. 26,Pekanbaru,2025-08-20,Reguler,5,40000,QRIS,2026-03-09
+LND-0716,Siti Sari,Perempuan,08208980951,Jl. Riau No. 15,Pekanbaru,2025-06-09,Reguler,5,5000,Transfer Bank,2026-02-23
+LND-0717,Fajar Kusuma,Perempuan,08634527566,Jl. Sudirman No. 3,Pekanbaru,2025-02-05,VIP,4,51000,QRIS,2026-02-03
+LND-0718,Andi Santoso,Perempuan,08138320476,Jl. Paus No. 62,Pekanbaru,2025-10-25,VIP,4,7000,ShopeePay,2026-04-13
+LND-0719,Ayu Wijaya,Perempuan,08246479417,Jl. Garuda No. 9,Pekanbaru,2025-05-26,Reguler,5,28000,Transfer Bank,2026-01-02
+LND-0720,Putri Santoso,Perempuan,08507228012,Jl. Garuda No. 90,Pekanbaru,2025-09-19,Premium,5,32000,QRIS,2026-03-03
+LND-0721,Reza Sari,Laki-laki,08949866897,Jl. Riau No. 81,Pekanbaru,2025-03-18,VIP,5,12000,ShopeePay,2026-03-11
+LND-0722,Rizky Pratama,Perempuan,08684934079,Jl. HR Soebrantas No. 37,Pekanbaru,2025-09-26,Reguler,5,38000,ShopeePay,2026-01-15
+LND-0723,Siti Kusuma,Laki-laki,08661580741,Jl. Garuda No. 30,Pekanbaru,2025-04-27,Reguler,4,7000,ShopeePay,2026-04-18
+LND-0724,Andi Santoso,Perempuan,08682469696,Jl. Sudirman No. 95,Pekanbaru,2025-08-04,VIP,4,6000,Tunai,2026-04-28
+LND-0725,Putri Santoso,Perempuan,08401743330,Jl. Paus No. 14,Pekanbaru,2025-06-28,Reguler,4,54000,ShopeePay,2026-02-19
+LND-0726,Siti Hidayat,Laki-laki,08709254017,Jl. Nangka No. 61,Pekanbaru,2025-12-18,Reguler,5,52000,ShopeePay,2026-04-07
+LND-0727,Dewi Nugroho,Laki-laki,0820986125,Jl. Paus No. 90,Pekanbaru,2025-01-23,Reguler,5,21000,Transfer Bank,2026-02-27
+LND-0728,Dewi Pratama,Laki-laki,08459581717,Jl. Nangka No. 4,Pekanbaru,2025-07-17,VIP,4,9000,Tunai,2026-01-09
+LND-0729,Siti Sari,Perempuan,0812720157,Jl. Nangka No. 27,Pekanbaru,2025-01-17,Premium,4,10000,Tunai,2026-04-04
+LND-0730,Andi Santoso,Perempuan,08881063767,Jl. Sudirman No. 97,Pekanbaru,2025-10-13,VIP,5,14000,QRIS,2026-04-16
+LND-0731,Dewi Kusuma,Perempuan,089585357,Jl. Riau No. 85,Pekanbaru,2025-06-05,VIP,4,13000,Tunai,2026-03-11
+LND-0732,Rizky Santoso,Perempuan,08960753037,Jl. Riau No. 43,Pekanbaru,2025-02-08,Reguler,5,38000,Transfer Bank,2026-01-15
+LND-0733,Fajar Hidayat,Laki-laki,08427373920,Jl. Sudirman No. 5,Pekanbaru,2025-07-02,Premium,5,11000,Tunai,2026-02-15
+LND-0734,Ayu Hidayat,Laki-laki,08228505642,Jl. Nangka No. 20,Pekanbaru,2025-05-13,VIP,4,19000,Transfer Bank,2026-03-26
+LND-0735,Putri Kusuma,Laki-laki,08267940690,Jl. Paus No. 57,Pekanbaru,2025-04-28,Reguler,5,8000,ShopeePay,2026-02-16
+LND-0736,Andi Santoso,Perempuan,08170675928,Jl. Garuda No. 66,Pekanbaru,2025-12-21,VIP,5,33000,Transfer Bank,2026-02-20
+LND-0737,Budi Kusuma,Perempuan,08850825925,Jl. Sudirman No. 55,Pekanbaru,2025-11-25,Premium,4,42000,Tunai,2026-01-08
+LND-0738,Budi Nugroho,Perempuan,08149235817,Jl. Sudirman No. 36,Pekanbaru,2025-03-13,Reguler,5,11000,Tunai,2026-03-21
+LND-0739,Putri Pratama,Perempuan,08255256077,Jl. Paus No. 51,Pekanbaru,2025-10-27,Premium,4,9000,Transfer Bank,2026-03-17
+LND-0740,Reza Kusuma,Laki-laki,08282665305,Jl. Paus No. 22,Pekanbaru,2025-08-24,VIP,4,37000,QRIS,2026-02-18
+LND-0741,Rizky Pratama,Perempuan,08301506905,Jl. Sudirman No. 33,Pekanbaru,2025-10-04,Premium,5,31000,Transfer Bank,2026-04-13
+LND-0742,Ayu Lestari,Perempuan,08608243144,Jl. HR Soebrantas No. 26,Pekanbaru,2025-03-13,Premium,5,24000,Tunai,2026-01-20
+LND-0743,Budi Nugroho,Perempuan,08213431453,Jl. Sudirman No. 96,Pekanbaru,2025-06-27,Premium,5,20000,Tunai,2026-02-03
+LND-0744,Rizky Pratama,Laki-laki,08668221358,Jl. HR Soebrantas No. 95,Pekanbaru,2025-01-19,VIP,4,23000,QRIS,2026-03-11
+LND-0745,Rizky Nugroho,Laki-laki,08612574890,Jl. Garuda No. 90,Pekanbaru,2025-06-05,VIP,4,22000,ShopeePay,2026-01-24
+LND-0746,Reza Pratama,Laki-laki,08159489841,Jl. Paus No. 79,Pekanbaru,2025-04-04,VIP,5,19000,Transfer Bank,2026-03-19
+LND-0747,Fajar Sari,Laki-laki,08837936210,Jl. Riau No. 25,Pekanbaru,2025-08-03,VIP,5,22000,ShopeePay,2026-04-07
+LND-0748,Fajar Lestari,Laki-laki,08300662398,Jl. Paus No. 78,Pekanbaru,2025-01-03,Reguler,4,51000,Transfer Bank,2026-01-19
+LND-0749,Dina Santoso,Laki-laki,08973218479,Jl. Garuda No. 15,Pekanbaru,2025-07-28,Premium,5,47000,Transfer Bank,2026-04-11
+LND-0750,Putri Pratama,Perempuan,08696561199,Jl. HR Soebrantas No. 40,Pekanbaru,2025-02-13,Premium,5,30000,ShopeePay,2026-03-14
+LND-0751,Fajar Lestari,Laki-laki,08970949007,Jl. Garuda No. 78,Pekanbaru,2025-11-23,Premium,5,32000,QRIS,2026-03-19
+LND-0752,Dina Nugroho,Perempuan,0826202982,Jl. HR Soebrantas No. 35,Pekanbaru,2025-11-07,VIP,5,27000,Tunai,2026-03-15
+LND-0753,Andi Lestari,Perempuan,08140050025,Jl. Sudirman No. 29,Pekanbaru,2025-10-25,Reguler,4,53000,Transfer Bank,2026-02-14
+LND-0754,Dina Santoso,Laki-laki,08735547697,Jl. HR Soebrantas No. 62,Pekanbaru,2025-07-14,Premium,4,45000,ShopeePay,2026-04-23
+LND-0755,Siti Sari,Perempuan,0813712550,Jl. Nangka No. 33,Pekanbaru,2025-12-15,Reguler,5,9000,Tunai,2026-03-16
+LND-0756,Dewi Nugroho,Laki-laki,08695091429,Jl. Nangka No. 79,Pekanbaru,2025-09-22,Reguler,5,22000,QRIS,2026-04-21
+LND-0757,Rizky Nugroho,Laki-laki,08827313732,Jl. Sudirman No. 11,Pekanbaru,2025-12-28,VIP,4,38000,Tunai,2026-01-18
+LND-0758,Ayu Hidayat,Perempuan,08308670468,Jl. Paus No. 97,Pekanbaru,2025-09-16,Premium,4,26000,QRIS,2026-04-06
+LND-0759,Siti Kusuma,Laki-laki,08398450853,Jl. HR Soebrantas No. 98,Pekanbaru,2025-02-09,VIP,5,17000,Transfer Bank,2026-01-27
+LND-0760,Ayu Santoso,Laki-laki,08565386819,Jl. Sudirman No. 7,Pekanbaru,2025-07-08,Premium,5,36000,Tunai,2026-01-27
+LND-0761,Budi Kusuma,Perempuan,08521732465,Jl. Paus No. 12,Pekanbaru,2025-09-24,Premium,4,39000,ShopeePay,2026-03-22
+LND-0762,Dewi Sari,Laki-laki,08866636643,Jl. Paus No. 15,Pekanbaru,2025-11-26,VIP,5,20000,QRIS,2026-03-22
+LND-0763,Fajar Lestari,Laki-laki,08400830924,Jl. Garuda No. 63,Pekanbaru,2025-02-19,Reguler,5,37000,Transfer Bank,2026-04-22
+LND-0764,Putri Hidayat,Laki-laki,08802672010,Jl. Riau No. 44,Pekanbaru,2025-03-26,VIP,4,6000,ShopeePay,2026-03-06
+LND-0765,Fajar Kusuma,Perempuan,08303214632,Jl. Paus No. 19,Pekanbaru,2025-12-14,Reguler,5,41000,Tunai,2026-01-08
+LND-0766,Dina Kusuma,Perempuan,08827951817,Jl. Nangka No. 9,Pekanbaru,2025-12-18,Reguler,4,28000,Transfer Bank,2026-02-13
+LND-0767,Rizky Santoso,Perempuan,08864862901,Jl. Riau No. 2,Pekanbaru,2025-07-20,Reguler,5,9000,Transfer Bank,2026-01-01
+LND-0768,Fajar Nugroho,Perempuan,08513148479,Jl. HR Soebrantas No. 28,Pekanbaru,2025-08-21,Premium,5,42000,Tunai,2026-02-03
+LND-0769,Andi Nugroho,Perempuan,08735601440,Jl. HR Soebrantas No. 0,Pekanbaru,2025-04-07,Premium,5,35000,Transfer Bank,2026-03-20
+LND-0770,Ayu Kusuma,Laki-laki,08389189652,Jl. Nangka No. 85,Pekanbaru,2025-10-27,VIP,4,14000,QRIS,2026-01-22
+LND-0771,Reza Sari,Laki-laki,08840128210,Jl. Sudirman No. 4,Pekanbaru,2025-05-15,VIP,5,23000,Transfer Bank,2026-01-03
+LND-0772,Fajar Pratama,Laki-laki,08339629369,Jl. HR Soebrantas No. 81,Pekanbaru,2025-12-14,VIP,4,33000,ShopeePay,2026-03-03
+LND-0773,Siti Hidayat,Perempuan,08257905212,Jl. Riau No. 29,Pekanbaru,2025-07-22,Premium,4,43000,ShopeePay,2026-03-12
+LND-0774,Putri Sari,Laki-laki,08246885022,Jl. Nangka No. 87,Pekanbaru,2025-08-26,Reguler,5,54000,QRIS,2026-03-12
+LND-0775,Dina Wijaya,Perempuan,08247112061,Jl. HR Soebrantas No. 95,Pekanbaru,2025-03-22,Premium,4,22000,Tunai,2026-03-17
+LND-0776,Fajar Sari,Perempuan,08402649920,Jl. Riau No. 53,Pekanbaru,2025-12-21,Reguler,5,43000,ShopeePay,2026-01-27
+LND-0777,Putri Kusuma,Perempuan,08503293192,Jl. Paus No. 76,Pekanbaru,2025-05-17,Premium,5,45000,Tunai,2026-03-03
+LND-0778,Rizky Kusuma,Perempuan,08657480412,Jl. Garuda No. 32,Pekanbaru,2025-12-07,VIP,4,49000,Transfer Bank,2026-01-17
+LND-0779,Dina Nugroho,Laki-laki,08332691957,Jl. Riau No. 40,Pekanbaru,2025-11-24,Premium,5,52000,Transfer Bank,2026-03-22
+LND-0780,Budi Santoso,Laki-laki,08103347750,Jl. HR Soebrantas No. 42,Pekanbaru,2025-06-12,Premium,5,11000,Tunai,2026-02-03
+LND-0781,Fajar Lestari,Perempuan,08511616634,Jl. Paus No. 76,Pekanbaru,2025-01-03,Reguler,4,39000,Tunai,2026-01-09
+LND-0782,Budi Lestari,Laki-laki,08940566401,Jl. Garuda No. 96,Pekanbaru,2025-07-28,VIP,5,13000,Tunai,2026-02-03
+LND-0783,Siti Lestari,Perempuan,08903595963,Jl. Garuda No. 87,Pekanbaru,2025-06-01,Premium,4,14000,QRIS,2026-01-26
+LND-0784,Ayu Wijaya,Perempuan,08319039754,Jl. Garuda No. 99,Pekanbaru,2025-11-27,Reguler,5,43000,Transfer Bank,2026-01-05
+LND-0785,Putri Lestari,Laki-laki,08412442698,Jl. Riau No. 79,Pekanbaru,2025-08-11,VIP,5,13000,ShopeePay,2026-01-09
+LND-0786,Reza Nugroho,Laki-laki,08890675532,Jl. Sudirman No. 54,Pekanbaru,2025-03-10,Reguler,5,15000,QRIS,2026-04-11
+LND-0787,Budi Hidayat,Perempuan,08937828000,Jl. HR Soebrantas No. 18,Pekanbaru,2025-04-05,Reguler,5,23000,QRIS,2026-02-18
+LND-0788,Dewi Wijaya,Laki-laki,08790348,Jl. HR Soebrantas No. 79,Pekanbaru,2025-09-21,VIP,5,36000,Transfer Bank,2026-02-07
+LND-0789,Putri Kusuma,Perempuan,08735386307,Jl. Sudirman No. 79,Pekanbaru,2025-12-27,VIP,5,16000,QRIS,2026-03-08
+LND-0790,Siti Pratama,Perempuan,08803730356,Jl. Sudirman No. 8,Pekanbaru,2025-12-07,Premium,4,23000,Tunai,2026-01-09
+LND-0791,Budi Wijaya,Perempuan,08485308825,Jl. Riau No. 0,Pekanbaru,2025-11-04,VIP,4,34000,Transfer Bank,2026-01-24
+LND-0792,Rizky Kusuma,Laki-laki,08766535122,Jl. Nangka No. 61,Pekanbaru,2025-09-10,VIP,5,35000,QRIS,2026-01-16
+LND-0793,Rizky Hidayat,Laki-laki,08238547841,Jl. Paus No. 62,Pekanbaru,2025-09-27,Reguler,5,52000,ShopeePay,2026-03-11
+LND-0794,Ayu Nugroho,Perempuan,08914003762,Jl. HR Soebrantas No. 15,Pekanbaru,2025-04-28,Premium,4,24000,Tunai,2026-04-23
+LND-0795,Andi Santoso,Laki-laki,08721764573,Jl. Riau No. 36,Pekanbaru,2025-10-02,VIP,5,41000,Tunai,2026-03-14
+LND-0796,Reza Santoso,Laki-laki,08762915415,Jl. HR Soebrantas No. 15,Pekanbaru,2025-08-17,Premium,4,53000,ShopeePay,2026-03-07
+LND-0797,Andi Hidayat,Laki-laki,08102948837,Jl. Riau No. 34,Pekanbaru,2025-08-18,Reguler,4,11000,QRIS,2026-03-22
+LND-0798,Budi Santoso,Laki-laki,08716360129,Jl. Garuda No. 76,Pekanbaru,2025-10-27,Reguler,4,44000,Transfer Bank,2026-02-17
+LND-0799,Rizky Wijaya,Laki-laki,08620128300,Jl. Nangka No. 57,Pekanbaru,2025-12-09,Reguler,4,36000,Transfer Bank,2026-03-15
+LND-0800,Rizky Lestari,Perempuan,08428854425,Jl. Sudirman No. 2,Pekanbaru,2025-06-27,Reguler,4,51000,QRIS,2026-03-26

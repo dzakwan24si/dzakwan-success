@@ -1,5 +1,6 @@
 import React, { Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
+const Pelanggan = React.lazy(() => import("./pages/Pelanggan"));
 const DetailPesanan = React.lazy(() => import("./pages/DetailPesanan"));
 const MainLayout = React.lazy(() => import("./layouts/MainLayout"));
 const Loading = React.lazy(() => import("./components/Loading"));
@@ -26,6 +27,7 @@ export default function App() {
                     <Route path="/pesanan/:id" element={<DetailPesanan />} />
                     <Route path="/layanan" element={<Layanan />} />
                     <Route path="/components" element={<Components />} />
+                    <Route path="/pelanggan" element={<Pelanggan />} />
                 </Route>
             </Routes>
         </Suspense>
