@@ -29,7 +29,7 @@ const Navbar = () => {
 
       {/* Button Contact */}
       <button className="hidden md:block bg-slate-900 hover:bg-slate-800 text-white rounded-full px-6 py-2.5 text-sm font-semibold transition-all">
-        Hubungi Kami
+        Login
       </button>
 
       {/* Mobile Menu Toggle */}
