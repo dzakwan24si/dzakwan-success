@@ -3,11 +3,11 @@ import { Eye, EyeOff, ChevronDown, Plus, AlertTriangle, Clock, CheckCircle2 } fr
 import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 
 // 1️⃣ IMPORT KOMPONEN REUSABLE YANG SUDAH KITA BUAT
-import PageHeader from "../components/PageHeader";
-import Card from "../components/Card";
-import Badge from "../components/Badge";
-import SupplyProgress from "../components/SupplyProgress";
-import StatCard from "../components/StatCard";
+import PageHeader from "../../components/PageHeader";
+import Card from "../../components/Card";
+import Badge from "../../components/Badge";
+import SupplyProgress from "../../components/SupplyProgress";
+import StatCard from "../../components/StatCard";
 
 // Data dummy (tetap sama)
 const orderData = [

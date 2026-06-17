@@ -1,67 +1,86 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Star, Ticket, CheckCircle2, AlertCircle, MoveRight } from "lucide-react";
+import { Star, Ticket, CheckCircle2, AlertCircle, MoveRight, Copy, Check } from "lucide-react";
 
 // Import API
+import { transactionAPI } from "@/services/transactionAPI";
 import { authAPI } from "@/services/authAPI";
 
 export default function PromoMember() {
   const [poinSaya, setPoinSaya] = useState(0);
-  const [userId, setUserId] = useState(null);
-  const [klaimSukses, setKlaimSukses] = useState(null);
-  const [isProcessing, setIsProcessing] = useState(false); // Mencegah double klik
+  const [userTier, setUserTier] = useState("Bronze");
+  const [promos, setPromos] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  
+  // State untuk melacak kode kupon mana yang sedang disalin pelanggan
+  const [copiedCode, setCopiedCode] = useState(null);
 
-  // Ambil poin saat halaman dimuat
+  // Tarik data poin, tier, dan voucher aktif dari database Supabase
   useEffect(() => {
-    const fetchPoints = async () => {
-      const userStr = localStorage.getItem('user');
-      if (userStr) {
-        const user = JSON.parse(userStr);
-        setUserId(user.id);
-        const profile = await authAPI.getMemberProfile(user.id);
-        setPoinSaya(profile.poin || 0);
+    const fetchPromoData = async () => {
+      try {
+        const userStr = localStorage.getItem('user');
+        if (userStr) {
+          const user = JSON.parse(userStr);
+          
+          // 1. Ambil Poin dan Tier asli milik pelanggan
+          const profile = await authAPI.getMemberProfile(user.id);
+          setPoinSaya(profile.poin || 0);
+          setUserTier(profile.tier || "Bronze");
+
+          // 2. Ambil seluruh master data promo dari database
+          const allPromos = await transactionAPI.getAllPromos();
+
+          // 3. FILTER MARKETING: Hanya tampilkan promo yang statusnya aktif (is_active = true)
+          const promoValid = allPromos.filter(promo => promo.is_active === true);
+          setPromos(promoValid);
+        }
+      } catch (error) {
+        console.error("Gagal memuat halaman promo:", error);
+      } finally {
+        setIsLoading(false);
       }
     };
-    fetchPoints();
+
+    fetchPromoData();
   }, []);
 
-  const [promoTersedia, setPromoTersedia] = useState([
-    { id: 1, judul_pendek: "20%", judul: "Diskon Cuci Karpet", deskripsi: "Maksimal potongan Rp 20.000.", hargaPoin: 50, warna: "from-blue-600 to-indigo-800" },
-    { id: 2, judul_pendek: "15K", judul: "Potongan Langsung", deskripsi: "Khusus Cuci Komplit (Kilat) min 3 Kg.", hargaPoin: 100, warna: "from-orange-500 to-red-500" },
-    { id: 3, judul_pendek: "FREE", judul: "Antar-Jemput", deskripsi: "Bebas biaya kurir untuk radius 10 KM.", hargaPoin: 150, warna: "from-slate-700 to-slate-900" },
-  ]);
-
-  const [voucherSaya, setVoucherSaya] = useState([]);
-
-  // Logika Eksekusi Klaim ke Supabase
-  const handleKlaim = async (promo) => {
-    if (poinSaya >= promo.hargaPoin && !isProcessing) {
-      setIsProcessing(true);
-      const sisaPoin = poinSaya - promo.hargaPoin;
-      
-      try {
-        // 1. Potong poin di Database Supabase
-        await authAPI.updateMemberPoints(userId, sisaPoin);
-        
-        // 2. Jika berhasil, update UI
-        setPoinSaya(sisaPoin);
-        setPromoTersedia(promoTersedia.filter(p => p.id !== promo.id));
-        setVoucherSaya([{ id: promo.id, judul_pendek: promo.judul_pendek, judul: promo.judul, masaBerlaku: "7 Hari dari sekarang", warna: promo.warna }, ...voucherSaya]);
-        
-        setKlaimSukses(`Berhasil mengklaim: ${promo.judul}!`);
-        setTimeout(() => setKlaimSukses(null), 3000);
-      } catch (error) {
-        alert("Gagal mengklaim promo. Periksa koneksi Anda.");
-      } finally {
-        setIsProcessing(false);
-      }
-    }
+  // Fungsi menyalin kode promo ke clipboard browser secara instan
+  const handleCopyCode = (code) => {
+    navigator.clipboard.writeText(code);
+    setCopiedCode(code);
+    setTimeout(() => setCopiedCode(null), 2000); // Reset icon setelah 2 detik
   };
+
+  // Helper bantuan untuk menentukan warna gradient tiket berdasarkan tipe promo (Menjaga keindahan UI lama Anda)
+  const getGradientColor = (tipe) => {
+    if (tipe === 'Persen') return "from-blue-600 to-indigo-800";
+    if (tipe === 'Nominal') return "from-orange-500 to-red-500";
+    return "from-slate-700 to-slate-900"; // Untuk Gratis Ongkir
+  };
+
+  // Helper untuk menentukan singkatan teks di visual tiket besar
+  const getJudulPendek = (promo) => {
+    if (promo.tipe_promo === 'Persen') return `${promo.nilai_potongan}%`;
+    if (promo.tipe_promo === 'Nominal') return `${promo.nilai_potongan / 1000}K`;
+    return "FREE";
+  };
+
+  if (isLoading) {
+    return <div className="min-h-[50vh] flex items-center justify-center text-slate-400 font-bold animate-pulse">Menyiapkan keuntungan Anda...</div>;
+  }
+
+  // Pisahkan data untuk kolom kanan (Voucher khusus yang targetnya pas dengan tier pelanggan saat ini)
+  const voucherKhususTier = promos.filter(p => p.target_tier === userTier);
+  // Data untuk kolom kiri (Semua promo umum atau promo yang lolos filter tier pelanggan)
+  const katalogPenukaran = promos.filter(p => p.target_tier === 'Semua' || p.target_tier === userTier);
 
   return (
     <div className="space-y-8 animate-fade-in pb-12 w-full pt-4">
       
-      {/* 1. TYPOGRAPHY HERO & POIN BALANCE */}
+      {/* =========================================
+          1. TYPOGRAPHY HERO & POIN BALANCE (SAMA PERSIS DENGAN YANG LAMA)
+          ========================================= */}
       <motion.div 
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
@@ -74,13 +93,15 @@ export default function PromoMember() {
           </h1>
         </div>
         
-        {/* Box Poin Extreme */}
-        <div className="bg-slate-900 rounded-[2rem] px-8 py-6 text-white flex items-center justify-between gap-8 min-w-[280px]">
+        {/* Box Poin Hitam Besar Anda */}
+        <div className="bg-slate-900 rounded-[2rem] px-8 py-6 text-white flex items-center justify-between gap-8 min-w-[320px] shadow-xl">
           <div>
-            <p className="text-slate-400 text-sm font-medium mb-1">Saldo Poin Kucekin</p>
-            <div className="flex items-baseline gap-1.5">
-              <h2 className="text-5xl font-black tracking-tighter">{poinSaya}</h2>
-              <span className="text-orange-500 font-bold text-lg">pt</span>
+            <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Status Keanggotaan</p>
+            <div className="flex items-baseline gap-2">
+              <h2 className="text-4xl font-black tracking-tighter">{poinSaya} <span className="text-xs font-bold text-slate-400 tracking-normal">pt</span></h2>
+              <span className="text-orange-400 font-extrabold text-xs bg-white/10 px-2.5 py-1 rounded-md border border-white/5 uppercase tracking-wider">
+                {userTier} Member
+              </span>
             </div>
           </div>
           <div className="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center shrink-0 backdrop-blur-sm border border-white/10">
@@ -89,80 +110,75 @@ export default function PromoMember() {
         </div>
       </motion.div>
 
-      {/* NOTIFIKASI KLAIM (Floating) */}
-      <AnimatePresence>
-        {klaimSukses && (
-          <motion.div 
-            initial={{ opacity: 0, y: -20, scale: 0.95 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            exit={{ opacity: 0, y: -20, scale: 0.95 }}
-            className="bg-slate-900 text-white px-6 py-4 rounded-[1.5rem] flex items-center gap-3 shadow-2xl border border-slate-700 w-fit"
-          >
-            <CheckCircle2 size={20} className="text-green-400" />
-            <span className="font-bold text-sm tracking-wide">{klaimSukses}</span>
-          </motion.div>
-        )}
-      </AnimatePresence>
-
+      {/* STRUKTUR GRID 3 KOLOM ASIMETRIS (2/3 Kiri, 1/3 Kanan) */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 md:gap-10">
         
         {/* =========================================
-            KOLOM KIRI: KATALOG PROMO TERSEDIA
+            KOLOM KIRI (2/3): KATALOG PROMO UTAMA (TAMPILAN TIKET GRADIENT)
             ========================================= */}
         <div className="lg:col-span-2 space-y-6">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-8 h-8 bg-slate-200 rounded-full flex items-center justify-center">
               <Ticket size={16} className="text-slate-700" />
             </div>
-            <h2 className="text-2xl font-black text-slate-900 tracking-tight">Katalog Penukaran</h2>
+            <h2 className="text-2xl font-black text-slate-900 tracking-tight">Katalog Voucher</h2>
           </div>
 
           <div className="space-y-4">
             <AnimatePresence>
-              {promoTersedia.map((promo) => {
-                const poinCukup = poinSaya >= promo.hargaPoin;
+              {katalogPenukaran.map((promo) => {
+                const warnaGradient = getGradientColor(promo.tipe_promo);
+                const teksPendek = getJudulPendek(promo);
 
                 return (
                   <motion.div 
                     layout
                     initial={{ opacity: 0, scale: 0.98 }}
                     animate={{ opacity: 1, scale: 1 }}
-                    exit={{ opacity: 0, scale: 0.95, x: -20 }}
+                    exit={{ opacity: 0, scale: 0.95 }}
                     key={promo.id} 
                     className="p-2 border border-slate-200 rounded-[2rem] bg-white flex flex-col sm:flex-row gap-2 group hover:border-slate-300 transition-colors"
                   >
-                    {/* Sisi Kiri Tiket (Visual Promo Besar) */}
-                    <div className={`sm:w-1/3 rounded-[1.5rem] bg-gradient-to-br ${promo.warna} p-6 text-white flex flex-col justify-between relative overflow-hidden min-h-[160px]`}>
+                    {/* Sisi Kiri Tiket Besar (Visual Kode Diskon Anda) */}
+                    <div className={`sm:w-1/3 rounded-[1.5rem] bg-gradient-to-br ${warnaGradient} p-6 text-white flex flex-col justify-between relative overflow-hidden min-h-[160px]`}>
                       <Ticket className="opacity-10 absolute -right-6 -bottom-6 w-32 h-32 rotate-12 transition-transform group-hover:scale-110 group-hover:rotate-45" />
                       <span className="text-[10px] font-black uppercase tracking-widest opacity-70 mb-4 z-10">Voucher</span>
-                      <h3 className="text-5xl font-black leading-none tracking-tighter z-10">{promo.judul_pendek}</h3>
+                      <h3 className="text-5xl font-black leading-none tracking-tighter z-10">{teksPendek}</h3>
                     </div>
 
-                    {/* Sisi Kanan Tiket (Detail & Action) */}
+                    {/* Sisi Kanan Tiket (Detail Aturan & Aksi Salin) */}
                     <div className="sm:w-2/3 p-4 sm:p-6 flex flex-col justify-between">
                       <div>
-                        <h4 className="font-black text-slate-900 text-xl mb-1">{promo.judul}</h4>
-                        <p className="text-sm text-slate-500 font-medium leading-relaxed pr-4">{promo.deskripsi}</p>
+                        <div className="flex justify-between items-start gap-2">
+                           <h4 className="font-black text-slate-900 text-xl mb-1">{promo.nama_promo}</h4>
+                           <span className="text-[10px] font-black uppercase tracking-wider bg-slate-100 text-slate-500 px-2 py-0.5 rounded border border-slate-200">Tier: {promo.target_tier}</span>
+                        </div>
+                        <p className="text-sm text-slate-500 font-medium leading-relaxed pr-4">
+                          Gunakan kode unik di bawah saat membuat transaksi pesanan baru.
+                        </p>
+                        <div className="text-xs text-slate-400 font-semibold mt-2">
+                          Syarat minimum transaksi: <span className="text-slate-700 font-bold">Rp {promo.min_belanja.toLocaleString('id-ID')}</span>
+                        </div>
                       </div>
                       
-                      <div className="flex items-center justify-between mt-6 pt-5 border-t border-slate-100">
-                        <div className="flex items-center gap-2">
-                          <Star size={20} className={poinCukup ? "text-orange-500 fill-orange-500" : "text-slate-300 fill-slate-300"} />
-                          <span className={`font-black text-2xl tracking-tight ${poinCukup ? "text-slate-900" : "text-slate-300"}`}>
-                            {promo.hargaPoin} <span className="text-sm font-bold text-slate-400 tracking-normal">pt</span>
-                          </span>
+                      <div className="flex items-center justify-between mt-6 pt-4 border-t border-slate-100">
+                        <div className="bg-slate-50 border border-slate-200/60 px-3 py-1.5 rounded-xl font-mono font-black text-slate-800 tracking-wider text-sm">
+                          {promo.kode_promo}
                         </div>
                         
                         <button 
-                          onClick={() => handleKlaim(promo)}
-                          disabled={!poinCukup}
-                          className={`px-6 py-3 rounded-xl font-bold text-sm transition-all flex items-center gap-2 ${
-                            poinCukup 
-                              ? "bg-slate-900 text-white hover:bg-orange-500 hover:shadow-[0_0_20px_rgba(249,115,22,0.3)] hover:-translate-y-0.5" 
-                              : "bg-slate-100 text-slate-400 cursor-not-allowed"
+                          onClick={() => handleCopyCode(promo.kode_promo)}
+                          className={`px-5 py-3 rounded-xl font-bold text-sm transition-all flex items-center gap-2 shadow-sm ${
+                            copiedCode === promo.kode_promo
+                              ? "bg-green-600 text-white shadow-green-600/10" 
+                              : "bg-slate-900 text-white hover:bg-orange-500 hover:shadow-[0_0_20px_rgba(249,115,22,0.3)] hover:-translate-y-0.5"
                           }`}
                         >
-                          {poinCukup ? "Klaim" : "Poin Kurang"}
+                          {copiedCode === promo.kode_promo ? (
+                            <><Check size={14} /> Tersalin</>
+                          ) : (
+                            <><Copy size={14} /> Salin Kode</>
+                          )}
                         </button>
                       </div>
                     </div>
@@ -171,64 +187,72 @@ export default function PromoMember() {
               })}
             </AnimatePresence>
             
-            {promoTersedia.length === 0 && (
+            {katalogPenukaran.length === 0 && (
               <div className="text-center py-12 bg-slate-50 rounded-[2rem] border border-slate-100 border-dashed">
                 <Ticket size={32} className="text-slate-300 mx-auto mb-3" />
-                <p className="text-slate-500 font-bold">Semua promo telah Anda klaim!</p>
+                <p className="text-slate-500 font-bold">Belum ada voucher aktif saat ini.</p>
               </div>
             )}
           </div>
         </div>
 
         {/* =========================================
-            KOLOM KANAN: VOUCHER MILIK SAYA
+            KOLOM KANAN (1/3): VOUCHER EKSLUSIF TIER (MINI BADGE LIST)
             ========================================= */}
         <div className="space-y-6">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-8 h-8 bg-orange-100 rounded-full flex items-center justify-center">
               <Star size={16} className="text-orange-500 fill-orange-500" />
             </div>
-            <h2 className="text-2xl font-black text-slate-900 tracking-tight">Voucher Saya</h2>
+            <h2 className="text-2xl font-black text-slate-900 tracking-tight">Khusus Tier Anda</h2>
           </div>
 
           <div className="space-y-4">
-            {voucherSaya.length === 0 ? (
+            {voucherKhususTier.length === 0 ? (
               <div className="text-center py-10 bg-slate-50 rounded-[2rem] border border-slate-100 border-dashed">
                 <AlertCircle size={28} className="text-slate-300 mx-auto mb-3" />
-                <p className="text-sm text-slate-500 font-medium px-6">Anda belum memiliki voucher. Tukarkan poin di sebelah kiri.</p>
+                <p className="text-xs text-slate-500 font-medium px-6 leading-relaxed">
+                  Tidak ada voucher spesifik untuk tier <strong className="text-orange-500">{userTier}</strong>. Gunakan katalog umum di sebelah kiri.
+                </p>
               </div>
             ) : (
               <AnimatePresence>
-                {voucherSaya.map((v) => (
-                  <motion.div 
-                    initial={{ opacity: 0, scale: 0.9, y: 20 }}
-                    animate={{ opacity: 1, scale: 1, y: 0 }}
-                    key={v.id} 
-                    className="p-1.5 border border-slate-200 rounded-[1.5rem] bg-white flex items-center gap-2 relative overflow-hidden group hover:border-slate-300 transition-colors cursor-pointer"
-                  >
-                    {/* Visual Voucher Pendek */}
-                    <div className={`w-20 h-20 rounded-[1rem] bg-gradient-to-br ${v.warna} flex flex-col items-center justify-center text-white shrink-0`}>
-                      <span className="text-[8px] font-black uppercase tracking-widest opacity-80 mb-0.5">Diskon</span>
-                      <span className="text-2xl font-black leading-none">{v.judul_pendek}</span>
-                    </div>
-                    
-                    <div className="py-2 px-3">
-                      <h3 className="font-bold text-slate-900 text-sm mb-1 leading-tight">{v.judul}</h3>
-                      <p className="text-[10px] font-bold text-slate-400 tracking-wide uppercase">Berlaku s/d {v.masaBerlaku}</p>
-                    </div>
+                {voucherKhususTier.map((v) => {
+                  const warnaGradient = getGradientColor(v.tipe_promo);
+                  const teksPendek = getJudulPendek(v);
+                  
+                  return (
+                    <motion.div 
+                      initial={{ opacity: 0, scale: 0.9, y: 10 }}
+                      animate={{ opacity: 1, scale: 1, y: 0 }}
+                      key={v.id} 
+                      onClick={() => handleCopyCode(v.kode_promo)}
+                      className="p-1.5 border border-slate-200 rounded-[1.5rem] bg-white flex items-center gap-2 relative overflow-hidden group hover:border-orange-300 transition-colors cursor-pointer"
+                    >
+                      {/* Visual Voucher Pendek Berwarna Kompleks */}
+                      <div className={`w-20 h-20 rounded-[1rem] bg-gradient-to-br ${warnaGradient} flex flex-col items-center justify-center text-white shrink-0 shadow-sm`}>
+                        <span className="text-[8px] font-black uppercase tracking-widest opacity-80 mb-0.5">Diskon</span>
+                        <span className="text-xl font-black leading-none tracking-tighter">{teksPendek}</span>
+                      </div>
+                      
+                      <div className="py-2 px-3 pr-8">
+                        <h3 className="font-bold text-slate-900 text-sm mb-0.5 leading-tight group-hover:text-orange-500 transition-colors">{v.nama_promo}</h3>
+                        <p className="text-[10px] font-mono font-black text-slate-400 uppercase tracking-wide">KODE: {v.kode_promo}</p>
+                      </div>
 
-                    <div className="absolute right-4 text-slate-300 group-hover:text-orange-500 transition-colors opacity-0 group-hover:opacity-100 transform translate-x-2 group-hover:translate-x-0 transition-all">
-                       <MoveRight size={18} />
-                    </div>
-                  </motion.div>
-                ))}
+                      <div className="absolute right-4 text-slate-300 group-hover:text-orange-500 transition-all transform translate-x-2 group-hover:translate-x-0">
+                         {copiedCode === v.kode_promo ? <Check size={16} className="text-green-500" /> : <MoveRight size={16} />}
+                      </div>
+                    </motion.div>
+                  );
+                })}
               </AnimatePresence>
             )}
           </div>
           
-          <div className="bg-slate-900 p-6 rounded-[2rem] text-center mt-6">
+          <div className="bg-slate-900 p-6 rounded-[2rem] text-center mt-6 shadow-md">
              <p className="text-xs text-slate-400 font-medium leading-relaxed">
-               Gunakan voucher Anda pada halaman <strong className="text-white">Pemesanan</strong> untuk mendapatkan potongan harga.
+               Klik atau salin kode voucher Anda, lalu masukkan pada halaman <strong className="text-white">Pemesanan</strong> untuk menikmati potongan harga otomatis.
              </p>
           </div>
         </div>

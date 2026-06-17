@@ -1,6 +1,7 @@
 import React, { Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 
+
 const AuthMember = React.lazy(() => import("./pages/auth/AuthMember"));
 const ProfilMember = React.lazy(() => import("./pages/member/ProfilMember"));
 const PesananMember = React.lazy(() => import("./pages/member/PesananMember"));
@@ -27,13 +28,14 @@ const Login = React.lazy(() => import("./pages/auth/Login"));
 const Register = React.lazy(() => import("./pages/auth/Register"));
 
 // === 5. IMPORTS ADMIN PAGES (Dari Master & GuestPage) ===
-const Beranda = React.lazy(() => import("./pages/Beranda"));
-const Pesanan = React.lazy(() => import("./pages/Pesanan"));
-const DetailPesanan = React.lazy(() => import("./pages/DetailPesanan"));
-const Layanan = React.lazy(() => import("./pages/Layanan"));
-const Pelanggan = React.lazy(() => import("./pages/Pelanggan"));
-const Components = React.lazy(() => import("./pages/Components"));
-const Karyawan = React.lazy(() => import("./pages/Karyawan"));
+const Beranda = React.lazy(() => import("./pages/admin/Beranda"));
+const Pesanan = React.lazy(() => import("./pages/admin/Pesanan"));
+const DetailPesanan = React.lazy(() => import("./pages/admin/DetailPesanan"));
+const Layanan = React.lazy(() => import("./pages/admin/Layanan"));
+const Pelanggan = React.lazy(() => import("./pages/admin/Pelanggan"));
+const Components = React.lazy(() => import("./pages/admin/Components"));
+const Karyawan = React.lazy(() => import("./pages/admin/Karyawan"));
+const PromoAdmin = React.lazy(() => import("./pages/admin/PromoAdmin"));
 
 export default function App() {
   return (
@@ -84,8 +86,8 @@ export default function App() {
           <Route path="layanan" element={<Layanan />} />
           <Route path="pelanggan" element={<Pelanggan />} />
           <Route path="components" element={<Components />} />
-          <Route path="karyawan" element={<Karyawan />} />{" "}
-          {/* Tambahan dari master */}
+          <Route path="karyawan" element={<Karyawan />} />
+          <Route path="promo" element={<PromoAdmin />} />
         </Route>
       </Routes>
     </Suspense>

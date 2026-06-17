@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Search, Edit, Star, MapPin, X, Loader2, Trash2 } from "lucide-react";
 
-import PageHeader from "../components/PageHeader";
-import Table from "../components/Table";
+import PageHeader from "../../components/PageHeader";
+import Table from "../../components/Table";
 import { authAPI } from "@/services/authAPI";
 
 export default function Pelanggan() {

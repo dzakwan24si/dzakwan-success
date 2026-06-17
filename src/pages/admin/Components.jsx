@@ -1,19 +1,19 @@
 import React from 'react';
 // Import semua 15 komponen (Sesuaikan path jika berbeda)
-import Button from '../components/Button';
-import Badge from '../components/Badge';
-import Avatar from '../components/Avatar';
-import Logo from '../components/Logo';
-import Card from '../components/Card';
-import PageHeader from '../components/PageHeader';
-import StatCard from '../components/StatCard';
-import Table from '../components/Table';
-import SupplyProgress from '../components/SupplyProgress';
-import InputField from '../components/InputField';
-import PasswordField from '../components/PasswordField';
-import Checkbox from '../components/Checkbox';
-import Alert from '../components/Alert';
-import LoadingSpinner from '../components/LoadingSpinner';
+import Button from '../../components/Button';
+import Badge from '../../components/Badge';
+import Avatar from '../../components/Avatar';
+import Logo from '../../components/Logo';
+import Card from '../../components/Card';
+import PageHeader from '../../components/PageHeader';
+import StatCard from '../../components/StatCard';
+import Table from '../../components/Table';
+import SupplyProgress from '../../components/SupplyProgress';
+import InputField from '../../components/InputField';
+import PasswordField from '../../components/PasswordField';
+import Checkbox from '../../components/Checkbox';
+import Alert from '../../components/Alert';
+import LoadingSpinner from '../../components/LoadingSpinner';
 import { Home, User, Mail, ShieldAlert } from 'lucide-react';
 
 export default function Components() {

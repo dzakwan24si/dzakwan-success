@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import { Plus, Edit, Trash2, Tag, Loader2, X, Clock } from "lucide-react";
 
 // Import Komponen Reusable (Sesuaikan dengan path di project Anda)
-import PageHeader from "../components/PageHeader";
-import Button from "../components/Button";
-import Table from "../components/Table";
+import PageHeader from "../../components/PageHeader";
+import Button from "../../components/Button";
+import Table from "../../components/Table";
 
 // Import API
 import { transactionAPI } from "@/services/transactionAPI";

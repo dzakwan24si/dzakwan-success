@@ -3,10 +3,10 @@ import { Search, Plus, Edit, Trash2, Eye, Loader2 } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 
 // Import Komponen Reusable
-import PageHeader from "../components/PageHeader";
-import Button from "../components/Button";
-import Badge from "../components/Badge";
-import Table from "../components/Table";
+import PageHeader from "../../components/PageHeader";
+import Button from "../../components/Button";
+import Badge from "../../components/Badge";
+import Table from "../../components/Table";
 
 // Import Komponen Shadcn
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";

@@ -1,5 +1,5 @@
-import { NavLink } from "react-router-dom";
-import { LayoutDashboard, ShoppingCart, ListOrdered, Users, Package, Settings, LogOut, FileUser } from "lucide-react";
+import { Link, NavLink } from "react-router-dom";
+import { LayoutDashboard, ShoppingCart, ListOrdered, Users, Package, Settings, LogOut, FileUser, Ticket } from "lucide-react";
 
 export default function Sidebar() {
   // 1. Memperbarui semua path dengan menambahkan prefix /admin sesuai rute baru
@@ -8,6 +8,7 @@ export default function Sidebar() {
     { icon: ShoppingCart, label: "Pesanan", path: "/admin/pesanan" },
     { icon: ListOrdered, label: "Layanan", path: "/admin/layanan" },
     { icon: Users, label: "Pelanggan", path: "/admin/pelanggan" },
+    { icon: Ticket, label: "Promo", path: "/admin/promo" },
     { icon: FileUser, label: "Data Karyawan", path: "/admin/karyawan" },
     { icon: Settings, label: "Pengaturan", path: "/admin/pengaturan" },
   ];
@@ -48,10 +49,10 @@ export default function Sidebar() {
       <div className="flex-1" />
 
       {/* Logout */}
-      <button className="flex flex-col items-center gap-1 py-3 px-2 rounded-xl text-gray-400 hover:text-red-600 hover:bg-red-50 transition-all duration-200 w-full">
+      <Link to="/" className="flex flex-col items-center gap-1 py-3 px-2 rounded-xl text-gray-400 hover:text-red-600 hover:bg-red-50 transition-all duration-200 w-full">
         <LogOut size={20} strokeWidth={1.8} />
         <span className="text-[9px] font-bold leading-tight text-center mt-1">Keluar</span>
-      </button>
+      </Link>
     </aside>
   );
 }

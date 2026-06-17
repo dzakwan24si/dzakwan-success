@@ -10,6 +10,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -59,7 +60,9 @@ export default function Header() {
             
             <DropdownMenuItem className="cursor-pointer rounded-lg py-2.5 text-red-600 focus:bg-red-50 focus:text-red-700">
               <LogOut className="mr-2 h-4 w-4" />
+              <Link to="/">
               <span className="font-semibold">Keluar Aplikasi</span>
+              </Link>
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>

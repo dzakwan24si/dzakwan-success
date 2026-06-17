@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { Trash2, Shield, User as UserIcon, Plus, X, Mail, Lock } from "lucide-react";
-import { authAPI } from "../services/authAPI";
-import AlertBox from "../components/AlertBox";
-import LoadingSpinner from "../components/LoadingSpinner";
+import { authAPI } from "../../services/authAPI";
+import AlertBox from "../../components/AlertBox";
+import LoadingSpinner from "../../components/LoadingSpinner";
 
 export default function Karyawan() {
     const [users, setUsers] = useState([]);

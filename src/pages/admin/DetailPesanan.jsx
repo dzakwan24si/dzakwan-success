@@ -2,10 +2,10 @@ import { useParams, Link, useSearchParams, useNavigate } from "react-router-dom"
 import { useState, useEffect, useRef } from "react"; 
 import { ArrowLeft, User, MapPin, Receipt, CheckCircle2, Printer, Check } from "lucide-react";
 
-import Card from "../components/Card";
-import Badge from "../components/Badge";
-import Button from "../components/Button";
-import LoadingSpinner from "../components/LoadingSpinner";
+import Card from "../../components/Card";
+import Badge from "../../components/Badge";
+import Button from "../../components/Button";
+import LoadingSpinner from "../../components/LoadingSpinner";
 
 // Import API
 import { transactionAPI } from "@/services/transactionAPI";

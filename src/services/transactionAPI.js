@@ -106,14 +106,52 @@ export const transactionAPI = {
         return response.data;
     },
 
-    // Update Profil Member (Nama, WhatsApp, Alamat)
-    async updateMemberProfile(userId, newName, newProfileData) {
-        // 1. Update nama lengkap di tabel 'users'
-        await axios.patch(`${API_URL}?id=eq.${userId}`, { fullname: newName }, { headers });
+    // ==========================================
+    // FUNGSI KHUSUS PROMO (ADMIN & PELANGGAN)
+    // ==========================================
+
+    // 11. (ADMIN) Ambil semua promo
+    async getAllPromos() {
+        const response = await axios.get(`${BASE_URL}/promos?order=created_at.desc`, { headers });
+        return response.data;
+    },
+
+    // 12. (ADMIN) Tambah Promo
+    async addPromo(promoData) {
+        // Ubah kode promo jadi huruf besar semua (Uppercase) sebelum disimpan
+        promoData.kode_promo = promoData.kode_promo.toUpperCase();
+        const response = await axios.post(`${BASE_URL}/promos`, promoData, { 
+            headers: { ...headers, "Prefer": "return=representation" } 
+        });
+        return response.data[0];
+    },
+
+    // 13. (ADMIN) Edit Promo
+    async updatePromo(id, updatedData) {
+        if (updatedData.kode_promo) {
+             updatedData.kode_promo = updatedData.kode_promo.toUpperCase();
+        }
+        const response = await axios.patch(`${BASE_URL}/promos?id=eq.${id}`, updatedData, { 
+            headers: { ...headers, "Prefer": "return=representation" } 
+        });
+        return response.data[0];
+    },
+
+    // 14. (ADMIN) Hapus Promo
+    async deletePromo(id) {
+        const response = await axios.delete(`${BASE_URL}/promos?id=eq.${id}`, { headers });
+        return response.data;
+    },
+
+    // 15. (PELANGGAN) Cek Validasi Kode Promo
+    async cekKodePromo(kode) {
+        // Cari promo yang is_active = true dan kodenya cocok
+        const kodeUpper = kode.toUpperCase();
+        const response = await axios.get(`${BASE_URL}/promos?kode_promo=eq.${kodeUpper}&is_active=eq.true`, { headers });
         
-        // 2. Update WhatsApp & Alamat di tabel 'member_profiles'
-        await axios.patch(`${PROFILE_URL}?user_id=eq.${userId}`, newProfileData, { headers });
-        
-        return true;
+        if (response.data.length === 0) {
+            throw new Error("Kode promo tidak valid atau sudah kadaluarsa.");
+        }
+        return response.data[0];
     }
 };
